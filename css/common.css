@@ -62,12 +62,12 @@ header > .top-nav > ul > li{
 /* ,는 여러개의 명령을 동시에 전달할때 사용 */
 
 header > .top-nav > ul > li:hover,
-header > .top-nav > ul > li.active{
+header > .top-nav > ul > li.active{                /* on1==================================================================== */
     border-bottom: 2px solid rgb(41, 156, 156);
 }
 
 header > .top-nav > ul > li:hover a,
-header > .top-nav > ul > li.active a{
+header > .top-nav > ul > li.active a{              /* on1==================================================================== */
     color: rgb(41, 156, 156);
 }
 
@@ -289,7 +289,7 @@ footer{
  .sidebar > .sidebar-middle > .side-frame  >ul > li > a{
     padding: 10px 0;
  }
- .sidebar > .sidebar-middle > .side-frame  >ul > li > a:hover span{
+ .sidebar > .sidebar-middle > .side-frame  >ul > li > a:hover span{  /* on2=========================================================================== */
     color: rgb(41, 156, 156);
  }
  .sidebar > .sidebar-middle > .side-frame >ul > li > a > span{
