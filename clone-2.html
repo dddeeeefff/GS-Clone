@@ -13,9 +13,9 @@
         <div  class="sitelogo"><a href="http://127.0.0.1:5500/GS-Clone/index.html"><img src="./img/logo_gscaltex.png" alt=""></a></div>
         <nav class="top-nav">
             <ul class="top-nav-list-ul">
-                <li><a href="http://127.0.0.1:5500/GS-Clone/clone-1.html">EV 충전소 찾기</a></li>
-                <li><a href="http://127.0.0.1:5500/GS-Clone/clone-2.html">EV 충전정보</a></li>
-                <li><a href="http://127.0.0.1:5500/GS-Clone/clone-3.html">커뮤니티</a></li>
+                <li class="on1-1"><a href="http://127.0.0.1:5500/GS-Clone/clone-1.html">EV 충전소 찾기</a></li>
+                <li class="on1-2"><a href="http://127.0.0.1:5500/GS-Clone/clone-2.html">EV 충전정보</a></li>
+                <li class="on1-3"><a href="http://127.0.0.1:5500/GS-Clone/clone-3.html">커뮤니티</a></li>
             </ul>
         </nav>
         <div class="burger-manu">
@@ -71,15 +71,15 @@
         
         <div></div>
         <div>
-        <ul>
+        <ul class="on2-1">
             <li><a href="http://127.0.0.1:5500/GS-Clone/clone-1.html"><span>EV 충전소 찾기</span></a></li>
         </ul>
-        <ul>
+        <ul class="on2-2">
             <li><a href="http://127.0.0.1:5500/GS-Clone/clone-2.html"><span>충전요금 / 충전기</span></a></li>
             <li><a href="#"><span>충전기 사용방법</span></a></li>
             <li><a href="#"><span>모바일 App. 사용방법</span></a></li>
         </ul>
-        <ul>
+        <ul class="on2-3">
             <li><a href="http://127.0.0.1:5500/GS-Clone/clone-3.html"><span>이벤트</span></a></li>
             <li><a href="#"><span>공지사항</span></a></li>
             <li><a href="#"><span>FAQ</span></a></li>
@@ -173,6 +173,27 @@
         topmanulist.onmouseout = function(){
             topmanulist.classList.remove('active');
         }
+
+        ulOn2_1.onmouseover = function(){
+            liOn1_1.classList.add('active');
+        }
+        ulOn2_2.onmouseover = function(){
+            liOn1_2.classList.add('active');
+        }
+        ulOn2_3.onmouseover = function(){
+            liOn1_3.classList.add('active');
+        }
+
+        ulOn2_1.onmouseout = function(){
+            liOn1_1.classList.remove('active');
+        }
+        ulOn2_2.onmouseout = function(){
+            liOn1_2.classList.remove('active');
+        }
+        ulOn2_3.onmouseout = function(){
+            liOn1_3.classList.remove('active');
+        }
+
     </script>
     
 </body>
