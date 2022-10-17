@@ -1,0 +1,149 @@
+@import url(./common.css);
+
+
+
+
+ .frame{
+    margin-top: 100px;
+ }
+ .frame > .top{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    letter-spacing: -2px;
+    
+ }
+ .frame > .top > .g1{
+    display: flex;
+    
+   
+ }
+ .frame > .top > .g1 > h2{
+    font-size: 42px;
+    color: #000;
+    margin-left: 130px;
+ }
+ .frame > .top > .g1 > span{
+  display: flex;
+  align-items: flex-end;
+  color: #667;
+  font-weight: bold;
+ 
+ }
+ .frame > .top > .g2{
+   font-size: 14px;
+   font-weight: bold;
+   margin-right: 10px;
+
+ }
+ .frame > .top > .g2 > a{}
+ .frame > .top > .g2 > a:nth-of-type(1){
+    position: relative;
+    padding-right: 13px;
+    /* margin-right: 10px; */
+ }
+ .frame > .top > .g2 > a:nth-of-type(1)::after{
+    content: "";
+    background-image: url(../img/sprite_pc.png);
+    background-repeat: no-repeat;
+    background-position: -17px -318px; 
+    background-size: 357px 329px;
+    width: 7px;
+    height: 11px;
+    margin-left: 10px;
+    display: inline-block;
+    
+ }
+ .frame > .top > .g2 > a:nth-of-type(2){
+    position: relative;
+    padding-right: 13px;
+    /* margin-right: 10px; */
+ }
+ .frame > .top > .g2 > a:nth-of-type(2)::after{
+   content: "";
+    background-image: url(../img/sprite_pc.png);
+    background-repeat: no-repeat;
+    background-position: -17px -318px; 
+    background-size: 357px 329px;
+    width: 7px;
+    height: 11px;
+    margin-left: 10px;
+    display: inline-block;
+ }
+ .frame > .top > .g2 > a:nth-of-type(3){}
+
+ .frame > .bottom{}
+
+ @media(max-width:1038px){
+   .frame{
+      margin-top: 100px;
+   }
+   .frame > .top{
+      display: flex;
+      justify-content: center;
+      padding: 30px 0;
+      letter-spacing: -2px;
+      
+   }
+   .frame > .top > .g1{
+      display: flex;
+
+     
+   }
+   .frame > .top > .g1 > h2{
+      font-size: 42px;
+      color: #000;
+      margin-left: 0px;
+   }
+   .frame > .top > .g1 > span{
+    display: none;
+    align-items: flex-end;
+    color: #667;
+    font-weight: bold;
+   }
+   .frame > .top > .g2{
+     font-size: 14px;
+     font-weight: bold;
+     margin-right: 10px;
+     display: none;
+   }
+   .frame > .top > .g2 > a{}
+   .frame > .top > .g2 > a:nth-of-type(1){
+      position: relative;
+      padding-right: 13px;
+      /* margin-right: 10px; */
+   }
+   .frame > .top > .g2 > a:nth-of-type(1)::after{
+      content: "";
+      background-image: url(../img/sprite_pc.png);
+      background-repeat: no-repeat;
+      background-position: -17px -318px; 
+      background-size: 357px 329px;
+      width: 7px;
+      height: 11px;
+      margin-left: 10px;
+      display: inline-block;
+      
+   }
+   .frame > .top > .g2 > a:nth-of-type(2){
+      position: relative;
+      padding-right: 13px;
+      /* margin-right: 10px; */
+   }
+   .frame > .top > .g2 > a:nth-of-type(2)::after{
+     content: "";
+      background-image: url(../img/sprite_pc.png);
+      background-repeat: no-repeat;
+      background-position: -17px -318px; 
+      background-size: 357px 329px;
+      width: 7px;
+      height: 11px;
+      margin-left: 10px;
+      display: inline-block;
+   }
+   .frame > .top > .g2 > a:nth-of-type(3){}
+  
+   .frame > .bottom{}
+
+
+ }

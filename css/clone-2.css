@@ -1,0 +1,355 @@
+@import url(./common.css);
+
+
+.top-content{
+    width: 100%;
+}
+.top-content > .information{
+    margin: 150px 91px 100px 91px;
+    position: relative;
+    letter-spacing: -1.5px;
+}
+.top-content > .information > h2{
+    font-family: "Noto Sans KR Bold";
+    font-weight: 700;
+    font-size: 48px;
+    color: #000;
+
+}
+.top-content > .information > p{
+    margin-top: 28px;
+    font-family: "Noto Sans KR Medium";
+    font-weight: 500;
+    font-size: 20px;
+}
+.top-content > .side-index{
+    position: absolute;
+    top: 15%; right: 2%;
+    font-size: 14px;
+    font-family: "Noto Sans KR Regular",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    color: #666;
+    letter-spacing: -0.5px;
+    font-weight: 500;
+}
+.top-content > .side-index > a{
+    padding-right: 10px;
+    /* margin-right: 10px; */
+    width: 100%;
+    /* display: inline; */
+}
+.top-content > .side-index > a:nth-of-type(1){}
+.top-content > .side-index > a:nth-of-type(2){}
+.top-content > .side-index > a::after{
+    content: "";
+    background-image: url(../img/sprite_pc.png);
+    background-repeat: no-repeat;
+    background-position: -17px -318px; 
+    background-size: 357px 329px;
+    width: 7px;
+    height: 11px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.top-content > .side-index > strong{}
+
+
+.main-content{
+    margin: 0 131px;
+}
+
+.main-content > .introduce{
+    margin: 130px 0 100px;
+    padding: 67px 0 84px;
+    background-color: #f7f7f7;
+
+    
+}
+.main-content > .introduce > div{
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 34px;
+    font-family: "Noto Sans KR Bold";
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+.main-content > .introduce > span{
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    color: #000;
+    font-family: "Noto Sans KR Regular",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    letter-spacing: -2px;
+    margin-bottom: 40px;
+}
+.main-content > .introduce > span > b{
+    color: #00aa9d;
+}
+.main-content > .introduce > p{
+    padding: 30px;
+    background-color: #fff;
+    text-align: right;
+    /* display: inline-block; */
+    margin: 0 auto;
+    width: 530px;
+    text-align: center;
+    color: #00aa9d;
+    font-size: 52px;
+    font-family: "Roboto Bold";
+    font-weight: 700;
+    letter-spacing: -1px;
+    
+}
+
+.main-content > .introduce > p > .s1{
+    color: #00aa9d;
+    font-size: 22px;
+    font-family: "Noto Sans KR Regular";
+    font-weight: 400;
+    vertical-align: 30%;
+}
+.main-content > .introduce > p > .s2{
+    color: #00aa9d;
+    font-size: 22px;
+    font-family: "Noto Sans KR Regular";
+    font-weight: 400;
+}
+
+.main-content > .charger{
+    width: 100%;
+    border-top: 1px solid #eee;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 200px;
+}
+.main-content > .charger > .charger-information{}
+.main-content > .charger > .charger-information > strong{
+    display: block;
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 34px;
+    text-align: center;
+    font-family: "Noto Sans KR Bold";
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+.main-content > .charger > .charger-information > span{
+    display: block;
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+.main-content > .charger > .charger-information > span > b{
+    color: #00aa9d;
+}
+
+.main-content > .charger > .charger-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+       
+}
+.main-content > .charger > .charger-img > div{
+    border: 1px solid #e0e0e0;
+    width: 36%;
+    margin: 0 12px;
+    padding: 70px 0 50px 0;
+}
+.main-content > .charger > .charger-img > div > img{
+    width: 215px;
+    margin-bottom: 30px;
+}
+.main-content > .charger > .charger-img > div > p{
+    color: #000;
+    font-family: "Noto Sans KR Bold";
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: -0.5px;
+}
+.main-content > .charger > .charger-img > div > span{
+    color: #000;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+}
+
+@media(max-width:1038px){
+    .top-content{
+        width: 100%;
+    }
+    .top-content > .information{
+        margin: 150px 91px 100px 91px;
+        position: relative;
+        letter-spacing: -1.5px;
+    }
+    .top-content > .information > h2{
+        font-family: "Noto Sans KR Bold";
+        font-weight: 700;
+        font-size: 48px;
+        color: #000;
+    
+    }
+    .top-content > .information > p{
+        margin-top: 28px;
+        font-family: "Noto Sans KR Medium";
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .top-content > .side-index{
+        position: absolute;
+        top: 15%; right: 2%;
+        font-size: 14px;
+        font-family: "Noto Sans KR Regular",Arial,"Helvetica Neue",Helvetica,sans-serif;
+        color: #666;
+        letter-spacing: -0.5px;
+        font-weight: 500;
+        display: none;
+    }
+    .top-content > .side-index > a{
+        padding-right: 10px;
+        /* margin-right: 10px; */
+        width: 100%;
+        /* display: inline; */
+    }
+    .top-content > .side-index > a:nth-of-type(1){}
+    .top-content > .side-index > a:nth-of-type(2){}
+    .top-content > .side-index > a::after{
+        content: "";
+        background-image: url(../img/sprite_pc.png);
+        background-repeat: no-repeat;
+        background-position: -17px -318px; 
+        background-size: 357px 329px;
+        width: 7px;
+        height: 11px;
+        margin-left: 10px;
+        display: inline-block;
+    }
+    .top-content > .side-index > strong{}
+    
+    
+    .main-content{
+        margin: 0 131px;
+    }
+    
+    .main-content > .introduce{
+        margin: 130px 0 100px;
+        padding: 67px 0 84px;
+        background-color: #f7f7f7;
+    
+        
+    }
+    .main-content > .introduce > div{
+        width: 100%;
+        text-align: center;
+        display: block;
+        margin-bottom: 10px;
+        color: #000;
+        font-size: 34px;
+        font-family: "Noto Sans KR Bold";
+        font-weight: 700;
+        letter-spacing: -0.5px;
+    }
+    .main-content > .introduce > span{
+        font-size: 20px;
+        display: block;
+        text-align: center;
+        color: #000;
+        font-family: "Noto Sans KR Regular",Arial,"Helvetica Neue",Helvetica,sans-serif;
+        letter-spacing: -2px;
+        margin-bottom: 40px;
+    }
+    .main-content > .introduce > span > b{
+        color: #00aa9d;
+    }
+    .main-content > .introduce > p{
+        padding: 30px;
+        background-color: #fff;
+        text-align: right;
+        /* display: inline-block; */
+        margin: 0 auto;
+        width: 530px;
+        text-align: center;
+        color: #00aa9d;
+        font-size: 52px;
+        font-family: "Roboto Bold";
+        font-weight: 700;
+        letter-spacing: -1px;
+        
+    }
+    
+    .main-content > .introduce > p > .s1{
+        color: #00aa9d;
+        font-size: 22px;
+        font-family: "Noto Sans KR Regular";
+        font-weight: 400;
+        vertical-align: 30%;
+    }
+    .main-content > .introduce > p > .s2{
+        color: #00aa9d;
+        font-size: 22px;
+        font-family: "Noto Sans KR Regular";
+        font-weight: 400;
+    }
+    
+    .main-content > .charger{
+        width: 100%;
+        border-top: 1px solid #eee;
+        text-align: center;
+        padding-top: 100px;
+        margin-bottom: 200px;
+    }
+    .main-content > .charger > .charger-information{}
+    .main-content > .charger > .charger-information > strong{
+        display: block;
+        margin-bottom: 10px;
+        color: #000;
+        font-size: 34px;
+        text-align: center;
+        font-family: "Noto Sans KR Bold";
+        font-weight: 700;
+        letter-spacing: -1px;
+    }
+    .main-content > .charger > .charger-information > span{
+        display: block;
+        text-align: center;
+        color: #000;
+        font-size: 20px;
+        letter-spacing: -1px;
+    }
+    .main-content > .charger > .charger-information > span > b{
+        color: #00aa9d;
+    }
+    
+    .main-content > .charger > .charger-img{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+           
+    }
+    .main-content > .charger > .charger-img > div{
+        border: 1px solid #e0e0e0;
+        width: 36%;
+        margin: 0 12px;
+        padding: 70px 0 50px 0;
+    }
+    .main-content > .charger > .charger-img > div > img{
+        width: 215px;
+        margin-bottom: 30px;
+    }
+    .main-content > .charger > .charger-img > div > p{
+        color: #000;
+        font-family: "Noto Sans KR Bold";
+        font-weight: 700;
+        font-size: 22px;
+        letter-spacing: -0.5px;
+    }
+    .main-content > .charger > .charger-img > div > span{
+        color: #000;
+        font-size: 18px;
+        letter-spacing: -0.5px;
+
+    }
+
+    }
