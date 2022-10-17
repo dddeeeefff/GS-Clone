@@ -14,9 +14,9 @@
         <div  class="sitelogo"><a href="http://127.0.0.1:5500/GS-Clone/index.html"><img src="./img/logo_gscaltex.png" alt=""></a></div>
         <nav class="top-nav">
             <ul class="top-nav-list-ul">
-                <li class="on1"><a href="http://127.0.0.1:5500/GS-Clone/clone-1.html">EV 충전소 찾기</a></li>
-                <li class="on1"><a href="http://127.0.0.1:5500/GS-Clone/clone-2.html">EV 충전정보</a></li>
-                <li class="on1"><a href="http://127.0.0.1:5500/GS-Clone/clone-3.html">커뮤니티</a></li>
+                <li class="on1-1"><a href="http://127.0.0.1:5500/GS-Clone/clone-1.html">EV 충전소 찾기</a></li>
+                <li class="on1-2"><a href="http://127.0.0.1:5500/GS-Clone/clone-2.html">EV 충전정보</a></li>
+                <li class="on1-3"><a href="http://127.0.0.1:5500/GS-Clone/clone-3.html">커뮤니티</a></li>
             </ul>
 
         </nav>
@@ -40,14 +40,14 @@
             <div class="sidebar-middle">
                 <div class="side-frame">
                 <div class="manu1"><span>EV 충전소 찾기</span></div>
-                <ul class="on2">
+                <ul>
                     <li><a href="http://127.0.0.1:5500/GS-Clone/clone-1.html"><span>EV 충전소 찾기</span></a></li>
                 </ul>
                 </div>
                 
                 <div class="side-frame">
                 <div class="manu1"><span>EV 충전정보</span></div>
-                <ul class="on2">
+                <ul>
                     <li><a href="http://127.0.0.1:5500/GS-Clone/clone-2.html"><span>충전요금 / 충전기</span></a></li></li>
                     <li><a href="#"><span>충전기 사용방법</span></a></li>
                     <li><a href="#"><span>모바일 App. 사용방법</span></a></li>
@@ -56,7 +56,7 @@
                 
                 <div class="side-frame">
                 <div class="manu1"><span>커뮤니티</span></div>
-                <ul class="on2">
+                <ul>
                     <li><a href="http://127.0.0.1:5500/GS-Clone/clone-3.html"><span>이벤트</span></a></li>
                     <li><a href="#"><span>공지사항</span></a></li>
                     <li><a href="#"><span>FAQ</span></a></li>
@@ -74,15 +74,15 @@
         
         <div></div>
         <div>
-        <ul>
+        <ul class="on2-1">
             <li><a href="http://127.0.0.1:5500/GS-Clone/clone-1.html"><span>EV 충전소 찾기</span></a></li>
         </ul>
-        <ul>
+        <ul class="on2-2">
             <li><a href="http://127.0.0.1:5500/GS-Clone/clone-2.html"><span>충전요금 / 충전기</span></a></li>
             <li><a href="#"><span>충전기 사용방법</span></a></li>
             <li><a href="#"><span>모바일 App. 사용방법</span></a></li>
         </ul>
-        <ul>
+        <ul class="on2-3">
             <li><a href="http://127.0.0.1:5500/GS-Clone/clone-3.html"><span>이벤트</span></a></li>
             <li><a href="#"><span>공지사항</span></a></li>
             <li><a href="#"><span>FAQ</span></a></li>
@@ -173,24 +173,56 @@
             topmanulist.classList.add('active');
         }
 
-        topnavlistul.onmouseout = function(){
-            topmanulist.classList.remove('active');
+        // topnavlistul.onmouseout = function(){
+        //     topmanulist.classList.remove('active');
+        // }
+        // topmanulist.onmouseout = function(){
+        //     topmanulist.classList.remove('active');
+        // }
+
+
+
+        const ulOn2_1 = document.querySelector('.on2-1');
+        const ulOn2_2 = document.querySelector('.on2-2');
+        const ulOn2_3 = document.querySelector('.on2-3');
+
+        const liOn1_1 = document.querySelector('.on1-1');
+        const liOn1_2 = document.querySelector('.on1-2');
+        const liOn1_3 = document.querySelector('.on1-3');
+
+        ulOn2_1.onmouseover = function(){
+            liOn1_1.classList.add('active');
         }
-        topmanulist.onmouseout = function(){
-            topmanulist.classList.remove('active');
+        ulOn2_2.onmouseover = function(){
+            liOn1_2.classList.add('active');
+        }
+        ulOn2_3.onmouseover = function(){
+            liOn1_3.classList.add('active');
+        }
+
+        ulOn2_1.onmouseout = function(){
+            liOn1_1.classList.remove('active');
+        }
+        ulOn2_2.onmouseout = function(){
+            liOn1_2.classList.remove('active');
+        }
+        ulOn2_3.onmouseout = function(){
+            liOn1_3.classList.remove('active');
         }
 
 
 
-        const topcolor1 = document.querySelectorAll('.on1');
-        const topcolor2 = document.querySelector('.on2');
 
-        topcolor1.onmouseover = function(){
-            topcolor1.classList.add('active');
-        }
-        topcolor2.onmouseover = function(){
-            topcolor2.classList.add('active');
-        }
+
+        // const topcolor1 = document.querySelectorAll('.on1');
+        // const topcolor2 = document.querySelector('.on2');
+
+        // topcolor1.onmouseover = function(){
+        //     topcolor1.classList.add('active');
+        // }
+        // topcolor2.onmouseover = function(){
+        //     topcolor2.classList.add('active');
+        // }
 
         // topcolor1.onmouseout = function(){
         //     topcolor1.classList.remove('active');
