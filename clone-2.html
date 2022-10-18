@@ -138,7 +138,24 @@
     </div>
     <footer>
         <div class="inner-container-X1">
-        <div><button>관련사이트</button></div>
+        <div class="scroll-div">
+            <button>관련사이트</button>
+            <ul class="bottom-scrollbar">
+                <li><a href="#">GS칼텍스</a></li>
+                <li><a href="#">Kixx</a></li>
+                <li><a href="#">GS&Point</a></li>
+                <li><a href="#">GS폴리머</a></li>
+                <li><a href="#">GS윤활유</a></li>
+                <li><a href="#">오토오아시스</a></li>
+                <li><a href="#">(주)GS</a></li>
+                <li><a href="#">GS에너지</a></li>
+                <li><a href="#">GS엠비즈</a></li>
+                <li><a href="#">GS바이오</a></li>
+                <li><a href="#">GS에코메탈</a></li>
+                <li><a href="#">이노폴리텍</a></li>
+                <li><a href="#">상지해운</a></li>
+            </ul>
+        </div>
         <ul>
             <li><a href="#">법적고지</a></li>
             <li><a href="#">개인정보보호방침</a></li>
@@ -208,6 +225,14 @@
         ulOn2_3.onmouseout = function(){
             liOn1_3.classList.remove('active');
         }
+
+        const scroll_div = document.querySelector('.scroll-div');
+        const scroll_manu = document.querySelector('.bottom-scrollbar');
+    
+        scroll_div.onclick = function(){
+            scroll_manu.classList.toggle('active');
+        }
+
 
     </script>
     
