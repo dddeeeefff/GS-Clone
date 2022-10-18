@@ -78,7 +78,7 @@
             <li><a href="#"><span>충전기 사용방법</span></a></li>
             <li><a href="#"><span>모바일 App. 사용방법</span></a></li>
         </ul>
-        <ul class="on2-2">
+        <ul class="on2-3">
             <li><a href="http://127.0.0.1:5500/GS-Clone/clone-3.html"><span>이벤트</span></a></li>
             <li><a href="#"><span>공지사항</span></a></li>
             <li><a href="#"><span>FAQ</span></a></li>
@@ -149,7 +149,7 @@
         sidemanu.classList.remove('active');
         lay.classList.remove('active');
     }
-    const topmanulist = document.querySelector('.topmanubar');
+        const topmanulist = document.querySelector('.topmanubar');
         const topnavlistul = document.querySelector('.top-nav-list-ul');
         
         topnavlistul.onmouseover = function(){
@@ -165,6 +165,14 @@
         topmanulist.onmouseout = function(){
             topmanulist.classList.remove('active');
         }
+
+        const ulOn2_1 = document.querySelector('.on2-1');
+        const ulOn2_2 = document.querySelector('.on2-2');
+        const ulOn2_3 = document.querySelector('.on2-3');
+
+        const liOn1_1 = document.querySelector('.on1-1');
+        const liOn1_2 = document.querySelector('.on1-2');
+        const liOn1_3 = document.querySelector('.on1-3');
 
         ulOn2_1.onmouseover = function(){
             liOn1_1.classList.add('active');
