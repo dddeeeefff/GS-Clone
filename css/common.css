@@ -159,6 +159,7 @@ footer{
     border-bottom: 0;
     background: #fff;
     overflow: hidden;
+    transition: 0.3s;
  
   }
 
@@ -166,6 +167,7 @@ footer{
    display: block;
    height: auto;
    z-index: 100000;
+   transition: 0.3s;
   }
 
   footer > .inner-container-X1 > div:nth-of-type(1) > ul > li{
