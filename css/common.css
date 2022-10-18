@@ -149,19 +149,39 @@ footer{
   }
  
   footer > .inner-container-X1 > div:nth-of-type(1) > ul{
-    display: none;
-    width: 100%; height: auto;
+    display: none;            /* 변하는부분========================================================= */
+    width: 100%; height: 0;   /* 변하는부분========================================================= */
     position: absolute;
     bottom: 43px;
-    z-index: 10000;
+    z-index: 10;
     padding: 10px 0;
     border: 1px solid #d9d9d9;
     border-bottom: 0;
     background: #fff;
+    overflow: hidden;
  
   }
+
+  footer > .inner-container-X1 > div:nth-of-type(1) > ul.active{
+   display: block;
+   height: auto;
+   z-index: 100000;
+  }
+
   footer > .inner-container-X1 > div:nth-of-type(1) > ul > li{
     display: list-item;
+  }
+
+  footer > .inner-container-X1 > div:nth-of-type(1) > ul > li > a{
+   width: 100%;
+   padding: 3px 17px;
+   font-family: "Noto Sans KR Regular";
+   font-weight: 400;
+   font-size: 14px;
+   color: #999;
+   letter-spacing: -0.5px;
+   text-decoration: none;
+   display: inline-block;
   }
  
   /* footer > .inner-container-X1 > div:nth-of-type(1) > button::before{
@@ -205,6 +225,14 @@ footer{
     padding-left: 40px;
     color: rgb(179, 170, 170);
   }
+
+  .bottom-scrollbar{
+
+  }
+  .bottom-scrollbar li{}
+  .bottom-scrollbar li a{
+
+  } 
  
  .sidebar {
     width: 690px;
@@ -304,14 +332,15 @@ footer{
     left: 0; top: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(104, 101, 101, 0.7);
+    background: rgba(0, 0, 0, 0.3);
     z-index: 9009;
     display: none;
  
+ 
  }
  .overlay.active{
-    display: block;
-    transition: .7s;
+    display: block; /* transition은 display: block;은 적용x */
+   
  }
 
  .topmanubar{
