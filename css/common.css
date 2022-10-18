@@ -367,6 +367,11 @@ footer{
     padding: 6px 0;
     display: block;
  }
+
+ .topmanubar > div:nth-of-type(2) > ul > li > a > span{
+   font-size: 16px;
+ }
+
  .topmanubar > div:nth-of-type(2) > ul > li > a:hover > span{
    color: rgb(41, 156, 156);
  }
