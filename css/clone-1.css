@@ -34,6 +34,8 @@
    font-size: 14px;
    font-weight: bold;
    margin-right: 10px;
+   position: absolute;
+   top: 15%; right: 2%;
 
  }
  .frame > .top > .g2 > a{}
@@ -106,6 +108,7 @@
      font-weight: bold;
      margin-right: 10px;
      display: none;
+
    }
    .frame > .top > .g2 > a{}
    .frame > .top > .g2 > a:nth-of-type(1){

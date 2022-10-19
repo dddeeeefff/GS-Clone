@@ -262,7 +262,12 @@ footer{
     display: flex;justify-content: space-between;
  
  }
- .sidebar > .sidebar-top > img{
+
+ .sidebar > .sidebar-top > a{
+   height: 100%;
+}
+
+ .sidebar > .sidebar-top > a > img{
     height: 100%;
  }
  .sidebar > .sidebar-top > .close-button{
@@ -589,9 +594,14 @@ footer{
      justify-content: center;
   
   }
-  .sidebar > .sidebar-top > img{
+  .sidebar > .sidebar-top > a{
      height: 36px;
   }
+
+  .sidebar > .sidebar-top > a > img{
+     height: 100%;
+ }
+
   .sidebar > .sidebar-top > .close-button{
      width: 24px;
      padding: 0;

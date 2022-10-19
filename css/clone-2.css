@@ -189,6 +189,7 @@
         font-weight: 700;
         font-size: 48px;
         color: #000;
+        text-align: center;
     
     }
     .top-content > .information > p{
@@ -196,6 +197,7 @@
         font-family: "Noto Sans KR Medium";
         font-weight: 500;
         font-size: 20px;
+        display: none;
     }
     .top-content > .side-index{
         position: absolute;
@@ -276,7 +278,6 @@
         font-family: "Roboto Bold";
         font-weight: 700;
         letter-spacing: -1px;
-        
     }
     
     .main-content > .introduce > p > .s1{
