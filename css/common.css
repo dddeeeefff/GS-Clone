@@ -292,7 +292,7 @@ footer{
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    margin-top: 0px;
+    margin-top: 50px;
     font-weight: 700;
  }
  .sidebar > .sidebar-middle > .side-frame{
@@ -307,8 +307,9 @@ footer{
  .sidebar > .sidebar-middle > .side-frame > .manu1 > span{
     font-family: "Noto Sans KR Bold";
      font-weight: 700;
-     font-size: 25px;
+     font-size: 28px;
      color: #000;
+     
  }
  .sidebar > .sidebar-middle > .side-frame  >ul{
  
