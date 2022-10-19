@@ -298,6 +298,8 @@ footer{
  .sidebar > .sidebar-middle > .side-frame{
     padding-left: 20px;
     margin : 20px;
+    display: block;
+    width: 100%;
  }
  .sidebar > .sidebar-middle > .side-frame > .manu1{
     margin-bottom: 32px;
