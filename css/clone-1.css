@@ -27,12 +27,13 @@
   display: flex;
   align-items: flex-end;
   color: #667;
-  font-weight: bold;
+  font-weight: normal;
+  margin-left: 10px;
  
  }
  .frame > .top > .g2{
    font-size: 14px;
-   font-weight: bold;
+   font-weight: normal;
    margin-right: 10px;
    position: absolute;
    top: 15%; right: 2%;

@@ -68,6 +68,7 @@ body{
     text-align: center;
     transition: 0.3s;
     position: relative;
+    margin-right: 10px;
  }
 
  .manubar > .clfix > li:hover > a > em { /* d */
@@ -75,6 +76,11 @@ body{
    transition: 0.3s;
    
    
+ }
+
+ .manubar > .clfix > li > a > span{
+   line-height: 1;
+   height: auto;
  }
 
  .manubar > .clfix > li:hover > a > span{/* ----------------------------------------------------------------------------- */
@@ -169,14 +175,14 @@ body{
   
    .container > .content > .main-selection > .main-image > .main-text{
       position: absolute;
-      left: 8%; top : 30%;
-      
+      left: 8%; top : 35%;
+      width: 600px;
    }
   
    .container > .content > .main-selection > .main-image > .main-text > p{
       font-size: 36px;
       font-weight: 1000;
-      letter-spacing: -2mm;
+      letter-spacing: -0.5mm;
       color: black;
    }
   

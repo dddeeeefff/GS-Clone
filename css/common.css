@@ -1,4 +1,12 @@
 @charset "utf-8";
+@font-face{font-family:'Noto Sans KR regular';font-style:normal;font-weight:400;src:local("Noto Sans KR Regular"),local("NotoSansKR-Regular"),url("../font/NotoSans-Regular.woff2") format("woff2"),url("../font/NotoSans-Regular.woff") format("woff")}
+@font-face{font-family:'Noto Sans KR Medium';font-style:normal;font-weight:500;src:local("Noto Sans KR Medium"),local("NotoSansKR-Medium"),url("../font/NotoSans-Medium.woff2") format("woff2"),url("../font/NotoSans-Medium.woff") format("woff")}
+@font-face{font-family:'Noto Sans KR Bold';font-style:normal;font-weight:700;src:local("Noto Sans KR Bold"),local("NotoSansKR-Bold"),url("../font/NotoSans-Bold.woff2") format("woff2"),url("../font/NotoSans-Bold.woff") format("woff")}
+@font-face{font-family:'Roboto Medium';font-style:normal;font-weight:500;src:local("Roboto Medium"),local("Roboto-Medium"),url("../font/Roboto-Medium.woff2") format("woff2"),url("../font/Roboto-Medium.woff2") format("woff")}
+@font-face{font-family:'Roboto Bold';font-style:normal;font-weight:700;src:local("Roboto Bold"),local("Roboto-Bold"),url("../font/Roboto-Bold.woff2") format("woff2"),url("../font/Roboto-Bold.woff2") format("woff")}
+/* @font-face{font-family:'Roboto Black';font-style:normal;font-weight:900;src:local("Roboto Black"),local("Roboto-Black"),url("../../fonts/roboto/Roboto-Black.woff2") format("woff2"),url("../../fonts/roboto/Roboto-Black.woff") format("woff")} */
+.fonts-load{visibility:hidden}
+.fonts-loaded .fonts-load{visibility:visible}
 
 /* common.css */
 
@@ -6,6 +14,7 @@ html,body{ margin:0; }
 *{
     box-sizing: border-box;
     color:#626262;
+    font-family: "Noto Sans KR Regular",Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 ul,li{
     list-style-type: none;
@@ -122,7 +131,7 @@ footer{
   }
   footer > .inner-container-X1{
      width: 100%;
-     padding: 30px 20px 42px 20PX;
+     padding: 27px 20px 42px 20PX;
      position: relative;
   }
   footer > .inner-container-X1 > div:nth-of-type(1){
@@ -196,28 +205,31 @@ footer{
      margin: 0 0 0 -5px;
      display: flex;
      font-weight: bold;
+     color: #000;
   }
   footer > .inner-container-X1 > ul > li{
     font-size: 16px;
     letter-spacing: -0.5px;
   }
   footer > .inner-container-X1 > ul > li:nth-of-type(1){
-    padding-left: 105px;
+    padding-left: 65px;
   }
   footer > .inner-container-X1 > ul > li:nth-of-type(2){
     padding-left: 40px;
   }
   footer > .inner-container-X1 > div:nth-of-type(2){
      display: flex;
-     font-size: 13px;
+     font-size: 14px;
      letter-spacing: -0.5px;
-     padding-top: 10px;
+     padding-top: 6px;
+     color: #666;
      
   }
   footer > .inner-container-X1 > div:nth-of-type(2) > address{
-     padding-left: 100px;
-     color: rgb(179, 170, 170);
+     padding-left: 60px;
+     color: #999;
      font-style: normal;
+     font-weight: 400;
   }
   footer > .inner-container-X1 > div:nth-of-type(2) > p{
      padding-left: 40px;
@@ -366,7 +378,7 @@ footer{
     background-color: #fff;
     font-size: 11px;
     letter-spacing: -0.5px;
-    font-weight: bold;
+    font-weight: 400;
     padding: 0 3%;
     position: fixed;
     top: -69px;
@@ -685,7 +697,6 @@ footer{
      right: 0;
       left: 0;
       bottom: 0;
-      font-family: "Noto Sans KR Regular",Arial,"Helvetica Neue",Helvetica,sans-serif;
    }
    footer > .inner-container-X1{
       width: 100%;
@@ -756,14 +767,20 @@ footer{
       padding-right: 100px;
       color: rgb(179, 170, 170);
       font-style: normal;
+      display: block;
+      width: 100%;
    }
    footer > .inner-container-X1 > div:nth-of-type(2) > p{
       padding-left: 0px;
       color: rgb(179, 170, 170);
       margin: 5px 0;
+      display: block;
+      width: 100%;
    }
    footer > .inner-container-X1 > div:nth-of-type(2) > small{
      padding-left: 0px;
      color: rgb(179, 170, 170);
+     display: block;
+     width: 100%;
    }
  }

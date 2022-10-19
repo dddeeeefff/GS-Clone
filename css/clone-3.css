@@ -13,7 +13,7 @@
 .top-content > .information > h2{
     font-family: "Noto Sans KR Bold";
     font-weight: 700;
-    font-size: 48px;
+    font-size: 38px;
     color: #000;
 
 }
@@ -21,7 +21,7 @@
     margin-top: 28px;
     font-family: "Noto Sans KR Medium";
     font-weight: 800;
-    font-size: 20px;
+    font-size: 17px;
     
 }
 .top-content > .side-index{
@@ -31,7 +31,7 @@
     font-family: "Noto Sans KR Regular",Arial,"Helvetica Neue",Helvetica,sans-serif;
     color: #666;
     letter-spacing: -0.5px;
-    font-weight: 500;
+    font-weight: normal;
 }
 .top-content > .side-index > a{
     padding-right: 10px;
@@ -52,7 +52,9 @@
     margin-left: 10px;
     display: inline-block;
 }
-.top-content > .side-index > strong{}
+.top-content > .side-index > strong{
+    font-weight: normal;
+}
 
 .event-content{}
 .event-content > .front-event{
