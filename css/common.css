@@ -51,8 +51,8 @@ header > .top-nav{
     font-size: 20px;
     letter-spacing: -0.5px;
     font-family: "Noto Sans KR Regular",Arial,"Helvetica Neue",Helvetica,sans-serif;
-    font-weight: bold;
-    color: #666;
+    font-weight: 500;
+    color: #333;
     text-align: center;
     position: relative;
 }
@@ -67,6 +67,13 @@ header > .top-nav > ul > li{
     width: 260px;
     padding: 29.5px;
 }
+
+header > .top-nav > ul > li > a{
+   color: #333;
+   font-weight: 500;
+   font-family: "Noto Sans KR Medium";
+}
+
 
 /* ,는 여러개의 명령을 동시에 전달할때 사용 */
 
@@ -384,7 +391,7 @@ footer{
     top: -69px;
     /* display: none; */
     z-index: 10;
-    transition: 0.7s;
+    transition: 0.5s;
  }
 
  .topmanubar.active{ top: 88px; }
