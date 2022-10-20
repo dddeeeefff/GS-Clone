@@ -8,7 +8,7 @@
 .top-content > .information{
     margin: 150px 91px 100px 91px;
     position: relative;
-    letter-spacing: -1.5px;
+    letter-spacing: -0.5px;
 }
 .top-content > .information > h2{
     font-family: "Noto Sans KR Bold";
