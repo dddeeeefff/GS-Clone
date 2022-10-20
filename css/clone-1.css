@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     padding: 30px 0;
-    letter-spacing: -2px;
+    letter-spacing: -0.5px;
     
  }
  .frame > .top > .g1{

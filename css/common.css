@@ -271,7 +271,7 @@ footer{
      color: #666;
      background-color: #fff;
      font-size: 16px;
-     letter-spacing: -2px;
+     letter-spacing: -0.5px;
  }
  .sidebar.active {right:0;}
  
@@ -331,7 +331,7 @@ footer{
  .sidebar > .sidebar-middle > .side-frame > .manu1 > span{
     font-family: "Noto Sans KR Bold";
      font-weight: 700;
-     font-size: 28px;
+     font-size: 25px;
      color: #000;
      
  }
