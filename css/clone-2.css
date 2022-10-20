@@ -77,7 +77,7 @@
     font-weight: 700;
     letter-spacing: -0.5px;
 }
-.main-content > .introduce > span{
+.main-content > .introduce > .pc-FareText{
     font-size: 20px;
     display: block;
     text-align: center;
@@ -86,9 +86,23 @@
     letter-spacing: -2px;
     margin-bottom: 40px;
 }
-.main-content > .introduce > span > b{
+.main-content > .introduce > .pc-FareText> b{
     color: #00aa9d;
 }
+
+.main-content > .introduce > .m-FareText{
+    font-size: 20px;
+    display: none;
+    text-align: center;
+    color: #000;
+    font-family: "Noto Sans KR Regular",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    letter-spacing: -2px;
+    margin-bottom: 40px;
+}
+.main-content > .introduce > .m-FareText> b{
+    color: #00aa9d;
+}
+
 .main-content > .introduce > p{
     padding: 30px;
     background-color: #fff;
@@ -137,16 +151,29 @@
     font-weight: 700;
     letter-spacing: -1px;
 }
-.main-content > .charger > .charger-information > span{
+.main-content > .charger > .charger-information > .pc-ChargerText{
     display: block;
     text-align: center;
     color: #000;
     font-size: 20px;
     letter-spacing: -1px;
 }
-.main-content > .charger > .charger-information > span > b{
+.main-content > .charger > .charger-information > .pc-ChargerText > b{
     color: #00aa9d;
 }
+
+.main-content > .charger > .charger-information > .m-ChargerText{
+    display: none;
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    letter-spacing: -1px;
+
+}
+.main-content > .charger > .charger-information > .m-ChargerText > b{
+    color: #00aa9d;
+}
+
 
 .main-content > .charger > .charger-img{
     display: flex;
@@ -189,7 +216,7 @@
     .top-content > .information > h2{
         font-family: "Noto Sans KR Bold";
         font-weight: 700;
-        font-size: 48px;
+        font-size: 30px;
         color: #000;
         text-align: center;
     
@@ -234,12 +261,12 @@
     
     
     .main-content{
-        margin: 0 131px;
+        margin: 0 2%;
     }
     
     .main-content > .introduce{
-        margin: 130px 0 100px;
-        padding: 67px 0 84px;
+        margin: 80px 0 40px;
+        padding: 45px 0 84px;
         background-color: #f7f7f7;
     
         
@@ -250,48 +277,63 @@
         display: block;
         margin-bottom: 10px;
         color: #000;
-        font-size: 34px;
+        font-size: 26px;
         font-family: "Noto Sans KR Bold";
         font-weight: 700;
         letter-spacing: -0.5px;
     }
-    .main-content > .introduce > span{
-        font-size: 20px;
-        display: block;
+    .main-content > .introduce > .pc-FareText{
+        font-size: 14px;
+        display: none;
         text-align: center;
         color: #000;
         font-family: "Noto Sans KR Regular",Arial,"Helvetica Neue",Helvetica,sans-serif;
         letter-spacing: -2px;
         margin-bottom: 40px;
     }
-    .main-content > .introduce > span > b{
+    .main-content > .introduce > .pc-FareText > b{
         color: #00aa9d;
     }
+
+    .main-content > .introduce > .m-FareText{
+        font-size: 14px;
+        display: block;
+        text-align: center;
+        color: #000;
+        font-family: "Noto Sans KR Regular",Arial,"Helvetica Neue",Helvetica,sans-serif;
+        letter-spacing: -0.5px;
+        margin-bottom: 40px;
+    }
+    .main-content > .introduce > .m-FareText > b{
+        color: #00aa9d;
+    }
+
     .main-content > .introduce > p{
-        padding: 30px;
+        padding: 0px;
         background-color: #fff;
         text-align: right;
         /* display: inline-block; */
         margin: 0 auto;
-        width: 530px;
+        width: 78%;
         text-align: center;
         color: #00aa9d;
-        font-size: 52px;
+        font-size: 32px;
         font-family: "Roboto Bold";
-        font-weight: 700;
-        letter-spacing: -1px;
+        font-weight: 400;
+        letter-spacing: -0.5px;
+        line-height: 1.5;
     }
     
     .main-content > .introduce > p > .s1{
         color: #00aa9d;
-        font-size: 22px;
+        font-size: 14px;
         font-family: "Noto Sans KR Regular";
         font-weight: 400;
         vertical-align: 30%;
     }
     .main-content > .introduce > p > .s2{
         color: #00aa9d;
-        font-size: 22px;
+        font-size: 14px;
         font-family: "Noto Sans KR Regular";
         font-weight: 400;
     }
@@ -300,59 +342,81 @@
         width: 100%;
         border-top: 1px solid #eee;
         text-align: center;
-        padding-top: 100px;
-        margin-bottom: 200px;
+        padding-top: 40px;
+        margin-bottom: 15px;
     }
     .main-content > .charger > .charger-information{}
     .main-content > .charger > .charger-information > strong{
         display: block;
         margin-bottom: 10px;
         color: #000;
-        font-size: 34px;
+        font-size: 26px;
         text-align: center;
         font-family: "Noto Sans KR Bold";
         font-weight: 700;
         letter-spacing: -1px;
     }
-    .main-content > .charger > .charger-information > span{
-        display: block;
+    .main-content > .charger > .charger-information > .pc-ChargerText{
+        display: none;
         text-align: center;
         color: #000;
         font-size: 20px;
         letter-spacing: -1px;
     }
-    .main-content > .charger > .charger-information > span > b{
+    .main-content > .charger > .charger-information > .pc-ChargerText > b{
+        color: #00aa9d;
+    }
+
+    .main-content > .charger > .charger-information > .m-ChargerText{
+        display: block;
+        text-align: center;
+        color: #000;
+        font-size: 14px;
+        letter-spacing: -0.5px;
+    
+    }
+    .main-content > .charger > .charger-information > .m-ChargerText > b{
         color: #00aa9d;
     }
     
+    
     .main-content > .charger > .charger-img{
-        display: flex;
+        display: block;
         justify-content: center;
-        margin-top: 50px;
+        margin-top: 0px;
            
     }
     .main-content > .charger > .charger-img > div{
         border: 1px solid #e0e0e0;
-        width: 36%;
-        margin: 0 12px;
-        padding: 70px 0 50px 0;
+        width: 100%;
+        margin: 10px 0;
+        padding: 37px 0 30px 0;
     }
     .main-content > .charger > .charger-img > div > img{
-        width: 215px;
+        width: 47%;
         margin-bottom: 30px;
     }
     .main-content > .charger > .charger-img > div > p{
         color: #000;
         font-family: "Noto Sans KR Bold";
         font-weight: 700;
-        font-size: 22px;
+        font-size: 14px;
         letter-spacing: -0.5px;
     }
     .main-content > .charger > .charger-img > div > span{
         color: #000;
-        font-size: 18px;
+        font-size: 12px;
         letter-spacing: -0.5px;
 
     }
+
+    footer{
+        border-top: 1px solid rgb(161, 156, 156);
+        position: static;
+        right: 0;
+         left: 0;
+         bottom: 0;
+         margin-top: 50px;
+      }
 
     }

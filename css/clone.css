@@ -50,6 +50,34 @@ body{
  .container > .content > .main-selection > .title-area{}
  .container > .content > .main-selection > .title-area > .lottie-box{}
 
+
+ .m-mainImg{
+   width: 100%;
+   margin-top: 88px;
+   text-align: right;
+   display: none;
+
+}
+.m-mainImg > img{
+   
+}
+
+.m-mainText{
+   display: none;
+}
+
+.m-mainText > p{
+   text-size-adjust: 100%;
+   font-size: 38px;
+}
+
+.m-mainText > p > b{
+   text-size-adjust: 100%;
+   font-size: 45px;
+}
+
+
+
  .manubar{
     font-size: 18px;
     color: #666;
@@ -157,6 +185,8 @@ body{
   .container{
       width: 100%;
       overflow: hidden;
+      display: none;
+
    }
    .container > .content{}
    .container > .content > .main-selection{}
@@ -196,6 +226,35 @@ body{
   
    .container > .content > .main-selection > .title-area{}
    .container > .content > .main-selection > .title-area > .lottie-box{}
+
+   .m-mainImg{
+      width: 100%;
+      margin-top: 88px;
+      text-align: right;
+      display:block;
+
+   }
+   .m-mainImg > img{
+      
+   }
+
+   .m-mainText{
+      display: block;
+      width: 90%;
+      margin : 30px 0;
+   }
+
+   .m-mainText > p{
+
+      font-size: 12vw;
+      color: black;
+   }
+   
+   .m-mainText > p > b{
+
+      font-size: 14vw;
+      color: rgb(41, 156, 156);
+   }
   
    .manubar{
       font-size: 16px;
@@ -229,6 +288,8 @@ body{
       padding: 35px 0;
       margin-bottom: 10px;
       border: 1px solid #e2e2e2;
+      margin-right: 5px;
+      margin-left: 5px;
  
    }
   
