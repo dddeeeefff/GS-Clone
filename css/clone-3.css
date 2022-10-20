@@ -20,7 +20,7 @@
 .top-content > .information > p{
     margin-top: 28px;
     font-family: "Noto Sans KR Medium";
-    font-weight: 800;
+    font-weight: 500;
     font-size: 17px;
     
 }
@@ -83,7 +83,7 @@
     display: block;
     color: #000;
     font-family: "Noto Sans KR Medium";
-    font-weight: 800;
+    font-weight: 500;
     font-size: 28px;
 }
 .event-content > .front-event > div > .s3{
@@ -92,7 +92,7 @@
     color: #666;
     font-size: 16px;
     letter-spacing: -0.5px;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .main-event{
