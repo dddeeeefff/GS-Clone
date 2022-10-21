@@ -364,12 +364,17 @@ footer{
     background: rgba(0, 0, 0, 0.3);
     z-index: 9009;
     display: none;
- 
- 
- }
+    opacity: 0;
+  }
  .overlay.active{
     display: block; /* transition은 display: block;은 적용x */
-   
+    /* opacity: 1; */
+    animation: overlay 1s forwards   
+ }
+ @keyframes overlay {
+   0%{display:block;}
+   10%{opacity: 0;}
+   100%{opacity: 1;}
  }
 
  .topmanubar{
