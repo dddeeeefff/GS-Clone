@@ -25,12 +25,12 @@
 <body>
     <div class="frame">
     <header>
-        <div  class="sitelogo"><a href="http://127.0.0.1:5500/GS-Clone/index.html"><img src="./img/logo_gscaltex.png" alt=""></a></div>
+        <div  class="sitelogo"><a href="index.html"><img src="./img/logo_gscaltex.png" alt=""></a></div>
         <nav class="top-nav">
             <ul class="top-nav-list-ul">
-                <li class="on1-1"><a href="http://127.0.0.1:5500/GS-Clone/clone-1.html">EV 충전소 찾기</a></li>
-                <li class="on1-2"><a href="http://127.0.0.1:5500/GS-Clone/clone-2.html">EV 충전정보</a></li>
-                <li class="on1-3"><a href="http://127.0.0.1:5500/GS-Clone/clone-3.html">커뮤니티</a></li>
+                <li class="on1-1"><a href="clone-1.html">EV 충전소 찾기</a></li>
+                <li class="on1-2"><a href="clone-2.html">EV 충전정보</a></li>
+                <li class="on1-3"><a href="clone-3.html">커뮤니티</a></li>
             </ul>
 
         </nav>
@@ -45,7 +45,7 @@
         </div>
         <nav class="sidebar">
             <div class="sidebar-top">
-                <a href="http://127.0.0.1:5500/GS-Clone/index.html"><img src="./img/logo_gscaltex.png" alt=""></a>
+                <a href="index.html"><img src="./img/logo_gscaltex.png" alt=""></a>
                 <button class="close-button">
                 <span></span>
                 <span></span> 
@@ -55,14 +55,14 @@
                 <div class="side-frame">
                 <div class="manu1"><span>EV 충전소 찾기</span></div>
                 <ul>
-                    <li><a href="http://127.0.0.1:5500/GS-Clone/clone-1.html"><span>EV 충전소 찾기</span></a></li>
+                    <li><a href="clone-1.html"><span>EV 충전소 찾기</span></a></li>
                 </ul>
                 </div>
                 
                 <div class="side-frame">
                 <div class="manu1"><span>EV 충전정보</span></div>
                 <ul>
-                    <li><a href="http://127.0.0.1:5500/GS-Clone/clone-2.html"><span>충전요금 / 충전기</span></a></li></li>
+                    <li><a href="clone-2.html"><span>충전요금 / 충전기</span></a></li></li>
                     <li><a href="#"><span>충전기 사용방법</span></a></li>
                     <li><a href="#"><span>모바일 App. 사용방법</span></a></li>
                 </ul>
@@ -71,7 +71,7 @@
                 <div class="side-frame">
                 <div class="manu1"><span>커뮤니티</span></div>
                 <ul>
-                    <li><a href="http://127.0.0.1:5500/GS-Clone/clone-3.html"><span>이벤트</span></a></li>
+                    <li><a href="clone-3.html"><span>이벤트</span></a></li>
                     <li><a href="#"><span>공지사항</span></a></li>
                     <li><a href="#"><span>FAQ</span></a></li>
                 </ul>
@@ -89,15 +89,15 @@
         <div></div>
         <div>
         <ul class="on2-1">
-            <li><a href="http://127.0.0.1:5500/GS-Clone/clone-1.html"><span>EV 충전소 찾기</span></a></li>
+            <li><a href="clone-1.html"><span>EV 충전소 찾기</span></a></li>
         </ul>
         <ul class="on2-2">
-            <li><a href="http://127.0.0.1:5500/GS-Clone/clone-2.html"><span>충전요금 / 충전기</span></a></li>
+            <li><a href="clone-2.html"><span>충전요금 / 충전기</span></a></li>
             <li><a href="#"><span>충전기 사용방법</span></a></li>
             <li><a href="#"><span>모바일 App. 사용방법</span></a></li>
         </ul>
         <ul class="on2-3">
-            <li><a href="http://127.0.0.1:5500/GS-Clone/clone-3.html"><span>이벤트</span></a></li>
+            <li><a href="clone-3.html"><span>이벤트</span></a></li>
             <li><a href="#"><span>공지사항</span></a></li>
             <li><a href="#"><span>FAQ</span></a></li>
         </ul>
@@ -131,7 +131,7 @@
     </div>
     <div class="manubar">
         <ul class="clfix">
-            <li><a href="http://127.0.0.1:5500/GS-Clone/clone-1.html"><em></em><span>전기차 충전소는<br> 어디에 있나요?</span></a></li>
+            <li><a href="clone-1.html"><em></em><span>전기차 충전소는<br> 어디에 있나요?</span></a></li>
             <li><a href="#"><em></em><span>충전기는 어떻게 <br> 사용하나요?</span></a></li>
             <li><a href="#"><em></em><span>모바일 App.<br> 사용은 어떻게 하나요?</span></a></li>
             <li><a href="#"><em></em><span>문의사항이<br> 있어요</span></a></li>
@@ -235,14 +235,23 @@
             liOn1_3.classList.remove('active');
         }
 
+
+
         const scroll_div = document.querySelector('.scroll-div');
         const scroll_manu = document.querySelector('.bottom-scrollbar');
-    
+        
+        let siteHei = scroll_manu.offsetHeight+20;
+        scroll_manu.style= 'display:none;height:0;';
+
+        console.log(siteHei)
+
         scroll_div.onclick = function(){
-            scroll_manu.classList.toggle('active');
+            scroll_manu.style= 'display:block;height:0;';
+            setTimeout(()=>{
+                scroll_manu.style= `height:${siteHei}px`;
+            },10)
+          
         }
-
-
 
 
 

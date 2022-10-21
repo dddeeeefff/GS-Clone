@@ -165,8 +165,8 @@ footer{
   }
  
   footer > .inner-container-X1 > div:nth-of-type(1) > ul{
-    display: none;            /* 변하는부분========================================================= */
-    width: 100%; height: 0;   /* 변하는부분========================================================= */
+                    /* 변하는부분========================================================= */
+    width: 100%;    /* 변하는부분========================================================= */
     position: absolute;
     bottom: 43px;
     z-index: 10;
@@ -175,15 +175,13 @@ footer{
     border-bottom: 0;
     background: #fff;
     overflow: hidden;
-    transition: 0.3s;
- 
+    transition: 0.5s;
   }
 
   footer > .inner-container-X1 > div:nth-of-type(1) > ul.active{
    display: block;
-   height: auto;
-   z-index: 100000;
-   transition: 0.3s;
+    z-index: 100000;
+   transition: 0.3s; 
   }
 
   footer > .inner-container-X1 > div:nth-of-type(1) > ul > li{
@@ -247,13 +245,7 @@ footer{
     color: rgb(179, 170, 170);
   }
 
-  .bottom-scrollbar{
 
-  }
-  .bottom-scrollbar li{}
-  .bottom-scrollbar li a{
-
-  } 
  
  .sidebar {
     width: 690px;
