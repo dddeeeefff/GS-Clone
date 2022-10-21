@@ -298,6 +298,10 @@ footer{
     border: none;
     cursor: pointer;
  }
+ .sidebar > .sidebar-top > .close-button.active{
+
+ }
+
  .sidebar > .sidebar-top > .close-button > span{
     position: absolute;
     left: 0%;
