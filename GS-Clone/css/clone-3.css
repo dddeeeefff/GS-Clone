@@ -1,0 +1,504 @@
+@import url(./common.css);
+
+
+
+ .top-content{
+    width: 100%;
+}
+.top-content > .information{
+    margin: 150px 91px 100px 91px;
+    position: relative;
+    letter-spacing: -0.5px;
+}
+.top-content > .information > h2{
+    font-family: "Noto Sans KR Bold";
+    font-weight: 700;
+    font-size: 38px;
+    color: #000;
+
+}
+.top-content > .information > p{
+    margin-top: 28px;
+    font-family: "Noto Sans KR Medium";
+    font-weight: 500;
+    font-size: 17px;
+    
+}
+.top-content > .side-index{
+    position: absolute;
+    top: 15%; right: 2%;
+    font-size: 14px;
+    font-family: "Noto Sans KR Regular",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    color: #666;
+    letter-spacing: -0.5px;
+    font-weight: normal;
+}
+.top-content > .side-index > a{
+    padding-right: 10px;
+    /* margin-right: 10px; */
+    width: 100%;
+    /* display: inline; */
+}
+.top-content > .side-index > a:nth-of-type(1){}
+.top-content > .side-index > a:nth-of-type(2){}
+.top-content > .side-index > a::after{
+    content: "";
+    background-image: url(../img/sprite_pc.png);
+    background-repeat: no-repeat;
+    background-position: -17px -318px; 
+    background-size: 357px 329px;
+    width: 7px;
+    height: 11px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.top-content > .side-index > strong{
+    font-weight: normal;
+}
+
+.event-content{}
+.event-content > .front-event{
+    width: 1160px;
+    margin: 0 auto;
+}
+.event-content > .front-event > div{
+    width: 100%;
+    margin: 50px 0;
+    padding: 0 40px;
+}
+.event-content > .front-event > div > span{
+
+}
+.event-content > .front-event > div > .s1{
+    display: inline-block;
+    width: 56px;
+    padding: 3px 0;
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: center;
+    background-color: #777;
+    border-radius: 5px;
+}
+.event-content > .front-event > div > .s2{
+    display: block;
+    color: #000;
+    font-family: "Noto Sans KR Medium";
+    font-weight: 500;
+    font-size: 28px;
+}
+.event-content > .front-event > div > .s3{
+    display: block;
+    font-family: "Noto Sans KR Regular",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    color: #666;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+}
+
+.main-event{
+    width: 1160px;
+    margin: 0 auto;
+    padding: 60px 40px 60px 40px;
+    border-top: 1px solid #d9d9d9; 
+    font-weight: 500;
+}
+.main-event > p{
+    font-family: "Noto Sans KR Regular",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    color: #666;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+    margin: 16px 0;
+}
+.main-event > div{}
+.main-event > div > img{}
+
+
+
+.event-paginate{
+    width: 1160px;
+    margin: 0 auto;
+    color: #666;
+    font-family: "Noto Sans KR Regular";
+    font-weight: 400;
+    
+}
+.event-paginate > div{
+    padding: 20px 40px;
+    border-bottom: 1px solid #d9d9d9;
+
+}
+.event-paginate > .p1{
+    border-top: 1px solid #d9d9d9;
+}
+.event-paginate > div > a{}
+.event-paginate > div > a > em{
+    display: inline-block;
+    padding: 2px 0;
+    margin-right: 5px;
+    font-size: 12px;
+    width: 40px;
+    text-align: center;
+    color: #fff;
+    background-color: #777;
+    border-radius: 5px;
+    font-style: normal;
+}
+.event-paginate > .p1 > a >span{}
+
+.event-paginate-nav{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    padding: 50px 0;
+}
+.event-paginate-nav > a{
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+    line-height: 37px;
+    vertical-align: top;
+    padding: 10.5px;
+    position: relative;
+}
+.event-paginate-nav > .aw1{}
+.event-paginate-nav > .aw2{}
+.event-paginate-nav > .aw3{}
+.event-paginate-nav > .aw4{}
+
+.event-paginate-nav > a > em{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.event-paginate-nav > .aw1 > em{
+    background-image: url(../img/sprite_pc.png);
+    background-position: -168px -265px;
+    width: 16px;
+    height: 16px;
+    background-size: 357px 329px;
+    margin: -8px 0 0 -8px;
+    display: inline-block;
+}
+.event-paginate-nav > .aw2 > em{
+    background-image: url(../img/sprite_pc.png);
+    background-position: -287px -174px;
+    width: 10px;
+    height: 16px;
+    background-size: 357px 329px;
+    margin: -8px 0 0 -8px;
+    display: inline-block;
+}
+.event-paginate-nav > .aw3 > em{
+    background-image: url(../img/sprite_pc.png);
+    background-position: -345px -226px;
+    width: 10px;
+    height: 16px;
+    background-size: 357px 329px;
+    margin: -8px 0 0 -8px;
+    display: inline-block;
+}
+.event-paginate-nav > .aw4 > em{
+    background-image: url(../img/sprite_pc.png);
+    background-position: -194px -265px;
+    width: 16px;
+    height: 16px;
+    background-size: 357px 329px;
+    margin: -8px 0 0 -8px;
+    display: inline-block;
+}
+
+
+
+.event-paginate-nav > .number{
+    position: relative;
+}
+.event-paginate-nav > .number > a{}
+.event-paginate-nav > .number > a > span{
+    padding: 10.5px;
+    font-family: "Roboto Medium";
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.event-paginate-nav > .number > .num1{}
+.event-paginate-nav > .number > .num1 > span{
+    color: #099;
+ 
+}
+
+.event-paginate-nav > .number > .num1::after{
+    content: '';
+    width: 27px;
+    height: 2px;
+    background: #099;
+    position : absolute;
+    bottom: -5%; left: 3%; 
+}
+
+.event-paginate-nav > .number > .num2{}
+.event-paginate-nav > .number > .num2 > span{}
+
+
+@media(max-width:1023px){
+    .top-content{
+        width: 100%;
+        /* display: none; */
+    }
+    .top-content > .information{
+        margin: 150px 91px 100px 91px;
+        position: relative;
+        letter-spacing: -1.5px;
+    }
+    .top-content > .information > h2{
+        font-family: "Noto Sans KR Bold";
+        font-weight: 700;
+        font-size: 30px;
+        color: #000;
+        text-align: center;
+    
+    }
+    .top-content > .information > p{
+        margin-top: 28px;
+        font-family: "Noto Sans KR Medium";
+        font-weight: 800;
+        font-size: 20px;
+        display: none;
+        
+    }
+    .top-content > .side-index{
+        position: absolute;
+        top: 15%; right: 2%;
+        font-size: 14px;
+        font-family: "Noto Sans KR Regular",Arial,"Helvetica Neue",Helvetica,sans-serif;
+        color: #666;
+        letter-spacing: -0.5px;
+        font-weight: 500;
+        display: none;
+    }
+    .top-content > .side-index > a{
+        padding-right: 10px;
+        /* margin-right: 10px; */
+        width: 100%;
+        /* display: inline; */
+    }
+    .top-content > .side-index > a:nth-of-type(1){}
+    .top-content > .side-index > a:nth-of-type(2){}
+    .top-content > .side-index > a::after{
+        content: "";
+        background-image: url(../img/sprite_pc.png);
+        background-repeat: no-repeat;
+        background-position: -17px -318px; 
+        background-size: 357px 329px;
+        width: 7px;
+        height: 11px;
+        margin-left: 10px;
+        display: inline-block;
+    }
+    .top-content > .side-index > strong{}
+    
+    .event-content{}
+    .event-content > .front-event{
+        width: 100%;
+        margin: 100px 0 auto;
+    }
+    .event-content > .front-event > div{
+        width: 100%;
+        margin: 50px 0;
+        padding: 0 40px;
+    }
+    .event-content > .front-event > div > span{
+    
+    }
+    .event-content > .front-event > div > .s1{
+        display: inline-block;
+        width: 45px;
+        padding: 3px 0;
+        margin-bottom: 10px;
+        color: #fff;
+        text-align: center;
+        background-color: #777;
+        border-radius: 5px;
+        font-size: 12px;
+    }
+    .event-content > .front-event > div > .s2{
+        display: block;
+        color: #000;
+        font-family: "Noto Sans KR Medium";
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .event-content > .front-event > div > .s3{
+        display: block;
+        font-family: "Noto Sans KR Regular",Arial,"Helvetica Neue",Helvetica,sans-serif;
+        color: #666;
+        font-size: 15px;
+        letter-spacing: -0.5px;
+        font-weight: 200;
+        margin-top: 10px;
+    }
+    
+    .main-event{
+        width: 93%;
+        margin: 0 auto;
+        padding: 30px 10px;
+        border-top: 1px solid #d9d9d9; 
+        font-weight: 500;
+    }
+    .main-event > p{
+        font-family: "Noto Sans KR Regular",Arial,"Helvetica Neue",Helvetica,sans-serif;
+        color: #666;
+        font-size: 16px;
+        letter-spacing: -0.5px;
+        margin: 16px 0;
+    }
+    .main-event > div{}
+    .main-event > div > img{
+        width: 100%;
+    }
+    
+    
+    
+    .event-paginate{
+        width: 93%;
+        margin: 0 auto;
+        color: #666;
+        font-family: "Noto Sans KR Regular";
+        font-weight: 900;
+        
+    }
+    .event-paginate > div{
+        padding: 10px 15px;
+        border-bottom: 1px solid #d9d9d9;
+        width: 100%;
+    
+    }
+    .event-paginate > .p1{
+        border-top: 1px solid #d9d9d9;
+    }
+    .event-paginate > div > a{
+        font-weight: 400;
+        display: inline-block;
+        width: 90%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .event-paginate > div > a > em{
+        display: inline-block;
+        padding: 2px 0;
+        margin-right: 5px;
+        font-size: 12px;
+        width: 40px;
+        text-align: center;
+        color: #fff;
+        background-color: #777;
+        border-radius: 5px;
+        font-style: normal;
+        font-weight: 400;
+    }
+    .event-paginate > .p1 > a >span{}
+    
+    .event-paginate-nav{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        vertical-align: middle;
+        padding: 50px 0;
+    }
+    .event-paginate-nav > a{
+        display: inline-block;
+        width: 37px;
+        height: 37px;
+        line-height: 37px;
+        vertical-align: top;
+        padding: 10.5px;
+        position: relative;
+    }
+    .event-paginate-nav > .aw1{}
+    .event-paginate-nav > .aw2{}
+    .event-paginate-nav > .aw3{}
+    .event-paginate-nav > .aw4{}
+    
+    .event-paginate-nav > a > em{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+    
+    .event-paginate-nav > .aw1 > em{
+        background-image: url(../img/sprite_pc.png);
+        background-position: -168px -265px;
+        width: 16px;
+        height: 16px;
+        background-size: 357px 329px;
+        margin: -8px 0 0 -8px;
+        display: inline-block;
+    }
+    .event-paginate-nav > .aw2 > em{
+        background-image: url(../img/sprite_pc.png);
+        background-position: -287px -174px;
+        width: 10px;
+        height: 16px;
+        background-size: 357px 329px;
+        margin: -8px 0 0 -8px;
+        display: inline-block;
+    }
+    .event-paginate-nav > .aw3 > em{
+        background-image: url(../img/sprite_pc.png);
+        background-position: -345px -226px;
+        width: 10px;
+        height: 16px;
+        background-size: 357px 329px;
+        margin: -8px 0 0 -8px;
+        display: inline-block;
+    }
+    .event-paginate-nav > .aw4 > em{
+        background-image: url(../img/sprite_pc.png);
+        background-position: -194px -265px;
+        width: 16px;
+        height: 16px;
+        background-size: 357px 329px;
+        margin: -8px 0 0 -8px;
+        display: inline-block;
+    }
+    
+    
+    
+    .event-paginate-nav > .number{
+        position: relative;
+    }
+    .event-paginate-nav > .number > a{}
+    .event-paginate-nav > .number > a > span{
+        padding: 10.5px;
+        font-family: "Roboto Medium";
+        font-weight: 700;
+        font-size: 18px;
+    }
+    
+    .event-paginate-nav > .number > .num1{}
+    .event-paginate-nav > .number > .num1 > span{
+        color: #099;
+     
+    }
+    
+    .event-paginate-nav > .number > .num1::after{
+        content: '';
+        width: 27px;
+        height: 2px;
+        background: #099;
+        position : absolute;
+        bottom: -5%; left: 3%; 
+    }
+    
+    .event-paginate-nav > .number > .num2{}
+    .event-paginate-nav > .number > .num2 > span{}
+    
+    
+
+
+
+}
