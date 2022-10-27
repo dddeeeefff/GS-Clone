@@ -47,8 +47,8 @@
             <div class="sidebar-top">
                 <a href="index.html"><img src="./img/logo_gscaltex.png" alt=""></a>
                 <button class="close-button">
-                <span></span>
-                <span></span> 
+                <span class="X1"></span>
+                <span class="X2"></span> 
                 </button>
             </div>
             <div class="sidebar-middle">
@@ -180,14 +180,31 @@
             {opacity:0}
         ],500);                     /* 사이드바 눌렀을시 배경색 */
         const closemanu = document.querySelector('.close-button');
+        const X1 = document.querySelector('.X1');
+        const X2 = document.querySelector('.X2');
+
         burgermanu.onclick = function(){
 
-            sidemanu.classList.add('active');
             lay.classList.add('active');
+            setTimeout(()=>{
+                sidemanu.classList.add('active');
+            },600)
+            setTimeout(()=>{
+                X1.classList.add('on');
+                X2.classList.add('on');
+            },1400)
         }
         closemanu.onclick = function(){
+                X1.classList.add('off');
+                X2.classList.add('off');
+            setTimeout(()=>{
+                sidemanu.classList.remove('active');
+                X1.classList.remove('on');
+                X2.classList.remove('on');
+                X1.classList.remove('off');
+                X2.classList.remove('off');
+            },300)
             lay.classList.remove('active')
-            sidemanu.classList.remove('active');
             lay.classList.add('off');
             setTimeout(()=>{
                 lay.classList.remove('off');

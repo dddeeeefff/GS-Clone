@@ -303,12 +303,42 @@ footer{
     height: 3px;
  
  }
- .sidebar > .sidebar-top > .close-button > span:nth-of-type(1){
-    transform: rotate(45deg);
- }
+ .sidebar > .sidebar-top > .close-button > span:nth-of-type(1),
  .sidebar > .sidebar-top > .close-button > span:nth-of-type(2){
-    transform: rotate(-45deg);
+    transform: rotate(0deg);
  }
+ .sidebar > .sidebar-top > .close-button > span:nth-of-type(1).on{
+   animation: close1_on 0.2s forwards;
+ }
+ .sidebar > .sidebar-top > .close-button > span:nth-of-type(2).on{
+   animation: close2_on 0.2s forwards;
+ }
+ @keyframes close1_on{
+   0%{transform: rotate(0deg);}
+   100%{transform: rotate(45deg);}
+ }
+ @keyframes close2_on{
+   0%{transform: rotate(0deg);}
+   100%{transform: rotate(-45deg);}
+ }
+
+ .sidebar > .sidebar-top > .close-button > span:nth-of-type(1).off{
+   animation: close1_off 0.2s forwards;
+ }
+ .sidebar > .sidebar-top > .close-button > span:nth-of-type(2).off{
+   animation: close2_off 0.2s forwards;
+ }
+ @keyframes close1_off{
+   0%{transform: rotate(45deg);}
+   100%{transform: rotate(0deg);}
+ }
+ @keyframes close2_off{
+    0%{transform: rotate(-45deg);}
+    100%{transform: rotate(0deg);}
+ }
+
+
+
  .sidebar > .sidebar-middle{
     width: 100%;
     display: flex;
@@ -651,11 +681,9 @@ footer{
      height: 2px;
   
   }
-  .sidebar > .sidebar-top > .close-button > span:nth-of-type(1){
-     transform: rotate(45deg);
-  }
+  .sidebar > .sidebar-top > .close-button > span:nth-of-type(1),
   .sidebar > .sidebar-top > .close-button > span:nth-of-type(2){
-     transform: rotate(-45deg);
+     transform: rotate(0deg);
   }
   .sidebar > .sidebar-middle{
      width: 100%;

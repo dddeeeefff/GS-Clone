@@ -129,7 +129,7 @@ body{
       opacity: 1;
   }
   100%{
-      transform: translateX(101%);   
+      transform: translateX(170%);   
       opacity: 0;
   }
 }
@@ -205,7 +205,7 @@ body{
   }
   100%{
       opacity: 0;
-      transform: translateX(-101%);
+      transform: translateX(-170%);
   }
 }
 
