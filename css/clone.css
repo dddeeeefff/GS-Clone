@@ -32,22 +32,196 @@ body{
     
  }
 
- .container > .content > .main-selection > .main-image > .main-text > p{
+ /* .container > .content > .main-selection > .main-image > .main-text > p{
     font-size: 90px;
     font-weight: 1000;
     letter-spacing: -0.5mm;
     color: black;
  }
 
+ .container > .content > .main-selection > .main-image > .main-text > .p1 > .top_b1{
+   font-size: 110px;
+   color: black;
 
- .container > .content > .main-selection > .main-image > .main-text > p > b{
-    font-size: 110px;
-    color: rgb(41, 156, 156);
+}
+  .container > .content > .main-selection > .main-image > .main-text > .p1 > .top_b2{
+   font-size: 110px;
+   color: rgb(41, 156, 156);
+}
 
- }
+.container > .content > .main-selection > .main-image > .main-text > .p2 > .btm_b1{
+   font-size: 110px;
+   color: black;
+}
+.container > .content > .main-selection > .main-image > .main-text > .p2 > .btm_b2{
+   font-size: 110px;
+   color: rgb(41, 156, 156);
+} */
+.main-text{
+   letter-spacing: -0.5mm;
+   font-weight: 1000;
+}
+.main-text > .d1{
+   display: flex;
+   width: 600px;
+   align-items: flex-end;
+}
+.main-text > .d1 > .top_b1{
+   font-size: 110px;
+   color: black;
+   opacity: 0;
+}
+
+.top_b1.on{
+   animation: slidein1 1s forwards;
+}
+.top_b1.off{
+   animation: slideout1 1s forwards;
+}
 
 
- .container > .content > .main-selection > .title-area{}
+.main-text > .d1 > .top_b2{
+   font-size: 110px;
+   color: rgb(41, 156, 156);
+   margin-left: 5%;
+   opacity: 0;
+}
+
+.top_b2.on{
+   animation: slidein1 1.5s forwards;
+}
+.top_b2.off{
+   animation: slideout1 1.5s forwards;
+}
+
+.main-text > .d1 > p{
+   overflow: hidden;
+}
+.main-text > .d1 > p > span{
+   font-size: 90px;
+   color: black;
+   transform: translateX(-100%);
+   display: inline-block;
+   opacity: 1;
+}
+
+.main-text > .d1 > p > span.on{
+   animation: slideSpan 1s forwards;
+}
+.main-text > .d1 > p.off{
+   animation: slideout1 1s forwards;
+}
+
+@keyframes slidein1{
+   0%{
+      opacity: 0;
+      transform: translateX(-60%);
+  }
+  100%{
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+@keyframes slideout1{
+   0%{
+      transform: translateX(0%);
+      opacity: 1;
+  }
+  100%{
+      transform: translateX(-100%);   
+      opacity: 0;
+  }
+}
+
+
+.main-text > .d2{
+   display: flex;
+   width: 600px;
+   align-items: flex-end;
+   justify-content: flex-end;
+}
+.main-text > .d2 > .btm_b1{
+   font-size: 110px;
+   color: black;
+   opacity: 0;
+}
+
+.btm_b1.on{
+   animation: slidein2 1.2s forwards;
+}
+.btm_b1.off{
+   animation: slideout2 1.2s forwards;
+}
+
+.main-text > .d2 > .btm_b2{
+   font-size: 110px;
+   color: rgb(41, 156, 156);
+   margin-left: 2%;
+   opacity: 0;
+}
+
+.btm_b2.on{
+   animation: slidein2 1.3s forwards;
+}
+.btm_b2.off{
+   animation: slideout2 1.3s forwards;
+}
+
+.main-text > .d2 > p{
+   overflow: hidden;
+}
+.main-text > .d2 > p > span{
+   font-size: 90px;
+   color: black;
+
+   transform: translateX(-100%);
+   display: inline-block;
+   opacity: 1;
+}
+
+.main-text > .d2 > p > span.on{
+   animation: slideSpan 1s forwards;
+}
+.main-text > .d2 > p.off{
+   animation: slideout2 1s forwards;
+}
+
+@keyframes slidein2{
+   0%{
+      opacity: 0;
+      transform: translateX(60%);
+  }
+  100%{
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+@keyframes slideout2{
+   0%{
+      opacity: 1;
+      transform: translateX(0%);
+  }
+  100%{
+      opacity: 0;
+      transform: translateX(100%);
+  }
+}
+
+@keyframes slideSpan{
+   0%{
+      opacity: 1;
+      transform: translateX(-100%);
+  }
+  100%{
+      transform: translateX(0%);
+  }
+}
+
+
+
+.container > .content > .main-selection > .title-area{}
  .container > .content > .main-selection > .title-area > .lottie-box{}
 
 
