@@ -100,7 +100,7 @@ body{
 .main-text > .d1 > p > span{
    font-size: 90px;
    color: black;
-   transform: translateX(-100%);
+   transform: translateX(-101%);
    display: inline-block;
    opacity: 1;
 }
@@ -129,7 +129,7 @@ body{
       opacity: 1;
   }
   100%{
-      transform: translateX(-100%);   
+      transform: translateX(-101%);   
       opacity: 0;
   }
 }
@@ -175,7 +175,7 @@ body{
    font-size: 90px;
    color: black;
 
-   transform: translateX(-100%);
+   transform: translateX(-101%);
    display: inline-block;
    opacity: 1;
 }
@@ -205,14 +205,14 @@ body{
   }
   100%{
       opacity: 0;
-      transform: translateX(100%);
+      transform: translateX(101%);
   }
 }
 
 @keyframes slideSpan{
    0%{
       opacity: 1;
-      transform: translateX(-100%);
+      transform: translateX(-101%);
   }
   100%{
       transform: translateX(0%);
