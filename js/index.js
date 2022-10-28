@@ -1,184 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta property="og:url"                content="https://dddeeeefff.github.io/GS-Clone/" />
-    <meta property="og:type"               content="website" />
-    <meta property="og:title"              content="GS 칼텍스" />
-    <meta property="og:description"        content="클론 코딩 작업" />
-    <meta property="og:image"              content="./img/favicon.jpg" />
-
-    <meta property="twitter:url"                content="https://dddeeeefff.github.io/GS-Clone/" />
-    <meta property="twitter:card"               content="summary" />
-    <meta property="twitter:type"               content="website" />
-    <meta property="twitter:site"              content="GS 칼텍스" />
-    <meta property="twitter:description"        content="클론 코딩 작업" />
-    <meta property="twitter:image"              content="./img/favicon.jpg" />
-
-    <title>충전요금/충전기 | EV 충전정보 | GS칼텍스 EV 충전</title>
-    <link href="./css/clone-2.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="./img/favicomatic (1)/favicon-16x16.png" sizes="16x16" />
-    <script defer src="./js/index.js"></script>
-</head>
-<body>
-    <header>
-        <div  class="sitelogo"><a href="index.html"><img src="./img/logo_gscaltex.png" alt=""></a></div>
-        <nav class="top-nav">
-            <ul class="top-nav-list-ul">
-                <li class="on1-1"><a href="clone-1.html">EV 충전소 찾기</a></li>
-                <li class="on1-2"><a href="clone-2.html">EV 충전정보</a></li>
-                <li class="on1-3"><a href="clone-3.html">커뮤니티</a></li>
-            </ul>
-        </nav>
-        <div class="burger-manu">
-            <div class="list-burger-manu">
-                <button class="btn-list-burger-manu">
-                <span></span>
-                <span></span>
-                <span></span>
-                </button>
-            </div>
-        </div>
-        <nav class="sidebar">
-            <div class="sidebar-top">
-                <a href="index.html"><img src="./img/logo_gscaltex.png" alt=""></a>
-                <button class="close-button">
-                <span class="X1"></span>
-                <span class="X2"></span> 
-                </button>
-            </div>
-            <div class="sidebar-middle">
-                <div class="side-frame">
-                <div class="manu1"><span>EV 충전소 찾기</span></div>
-                <ul>
-                    <li><a href="clone-1.html"><span>EV 충전소 찾기</span></a></li>
-                </ul>
-                </div>
-                
-                <div class="side-frame">
-                <div class="manu1"><span>EV 충전정보</span></div>
-                <ul>
-                    <li><a href="clone-2.html"><span>충전요금 / 충전기</span></a></li></li>
-                    <li><a href="#"><span>충전기 사용방법</span></a></li>
-                    <li><a href="#"><span>모바일 App. 사용방법</span></a></li>
-                </ul>
-                </div>
-                
-                <div class="side-frame">
-                <div class="manu1"><span>커뮤니티</span></div>
-                <ul>
-                    <li><a href="clone-3.html"><span>이벤트</span></a></li>
-                    <li><a href="#"><span>공지사항</span></a></li>
-                    <li><a href="#"><span>FAQ</span></a></li>
-                </ul>
-                </div>
-            </div>
-           
-        </nav>
-        <div class="overlay"></div>
-
-    </header>
-
-    <div class="topmanubar">
-        
-        <div></div>
-        <div>
-        <ul class="on2-1">
-            <li><a href="clone-1.html"><span>EV 충전소 찾기</span></a></li>
-        </ul>
-        <ul class="on2-2">
-            <li><a href="clone-2.html"><span>충전요금 / 충전기</span></a></li>
-            <li><a href="#"><span>충전기 사용방법</span></a></li>
-            <li><a href="#"><span>모바일 App. 사용방법</span></a></li>
-        </ul>
-        <ul class="on2-3">
-            <li><a href="clone-3.html"><span>이벤트</span></a></li>
-            <li><a href="#"><span>공지사항</span></a></li>
-            <li><a href="#"><span>FAQ</span></a></li>
-        </ul>
-        </div>
-        <div></div>
-    </div>
-
-    <div class="top-content">
-        <div class="information">
-            <h2>EV 충전정보</h2>
-            <p>GS칼텍스의 충전정보를 알려드립니다.</p>
-        </div>
-        <div class="side-index">
-            <a>HOME</a>
-            <a>EV 충전정보</a>
-            <strong>충전요금/충전기</strong>
-        </div>
-    </div>
-
-    <div class="main-content">
-        <div class="introduce">
-            <div>충전요금</div>
-            <span class="pc-FareText">GS칼텍스 전기 충전은 전국 어디서나 <b>같은 요금</b>으로 서비스를 제공합니다.</span>
-            <span class="m-FareText">GS칼텍스 전기 충전은 전국 어디서나 <br><b>같은 요금</b>으로 서비스를 제공합니다.</span>
-            <p>
-                <span class="s1">비회원: </span>279<span class="s2">원 / kwh</span><br>
-                <span class="s1">&nbsp;&nbsp;&nbsp;회원: </span>259<span class="s2">원 / kwh</span>
-            </p>
-        </div>
-        <div class="charger">
-            <div class="charger-information">
-                <strong>충전기</strong>
-                <span class="pc-ChargerText"><b>100kW 이상의 고출력 충전기</b> 로 초급속 충전 경험을 제공합니다.</span>
-                <span class="m-ChargerText"><b>100kW 이상의 고출력 충전기</b> <br>로 초급속 충전 경험을 제공합니다.</span>
-            </div>
-            <div class="charger-img">
-                <div>
-                    <img src="./img/img_dualcharge.png" alt="">
-                    <P>동시충전형</P>
-                    <span>(DC콤보)</span>
-                </div>
-                <div>
-                    <img src="./img/img_singlecharge.png" alt="">
-                    <P>단독충전형</P>
-                    <span>(DC콤보)</span>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <footer>
-        <div class="inner-container-X1">
-        <div class="scroll-div">
-            <button>관련사이트</button>
-            <ul class="bottom-scrollbar">
-                <li><a href="#">GS칼텍스</a></li>
-                <li><a href="#">Kixx</a></li>
-                <li><a href="#">GS&Point</a></li>
-                <li><a href="#">GS폴리머</a></li>
-                <li><a href="#">GS윤활유</a></li>
-                <li><a href="#">오토오아시스</a></li>
-                <li><a href="#">(주)GS</a></li>
-                <li><a href="#">GS에너지</a></li>
-                <li><a href="#">GS엠비즈</a></li>
-                <li><a href="#">GS바이오</a></li>
-                <li><a href="#">GS에코메탈</a></li>
-                <li><a href="#">이노폴리텍</a></li>
-                <li><a href="#">상지해운</a></li>
-            </ul>
-        </div>
-        <ul>
-            <li><a href="#">법적고지</a></li>
-            <li><a href="#">개인정보보호방침</a></li>
-        </ul>
-        <div>
-            <address>서울특별시 강남구 논현로 508 GS타워</address>
-            <p>고객센터 : 1544-5151</p>
-            <small>Copyright © 2020 GS Caltex Corporation. All Right Reserved</small>
-        </div>
-        </div>
-    </footer>
-
-    <script>
 
         //사이드바 메뉴 토글
         const burgermanu = document.querySelector('.btn-list-burger-manu');     /* 버튼 */
@@ -436,12 +255,12 @@
                 timer = setTimeout(() => {
                     top_p[k].classList.add('off');
                     
-                },5200+300*k);
+                },5100+100*k);
             });
             btm_p.forEach((v,k)=>{
                 timer = setTimeout(() => {
                     btm_p[k].classList.add('off');
-                },5200+300*k);
+                },5100+100*k);
             });
             setTimeout(() => {
                 top_b1.classList.remove('on');
@@ -474,8 +293,6 @@
 
 
 
-
-
         // const topcolor1 = document.querySelectorAll('.on1');
         // const topcolor2 = document.querySelector('.on2');
 
@@ -493,8 +310,3 @@
         //     topcolor2.classList.remove('active');
         // }
 
-
-    </script>
-    
-</body>
-</html>
