@@ -188,6 +188,9 @@ footer{
   footer > .inner-container-X1 > div:nth-of-type(1) > ul > li{
     display: list-item;
   }
+  footer > .inner-container-X1 > div:nth-of-type(1) > ul > li > a:hover{
+   color:  rgb(41, 156, 156);
+  }
 
   footer > .inner-container-X1 > div:nth-of-type(1) > ul > li > a{
    width: 100%;

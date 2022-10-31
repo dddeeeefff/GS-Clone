@@ -1,0 +1,182 @@
+@import url(./common.css);
+
+.top-content{
+    width: 100%;
+    position: relative;
+    letter-spacing: -0.5px;
+}
+.top-content-margin{
+    height: 360px;
+    margin: 0 10%;
+    position: relative;
+}
+.top-content-margin > .information{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 170px;
+    
+}
+.top-content-margin > .information > h2{
+    display: inline-block;
+    font-size: 48px;
+    color: #000;
+}
+.top-content-margin > .information > p{
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 28px;
+}
+.side-index{
+    position: absolute;
+    top: 140px; right: 40px;
+    font-size: 14px;
+}
+.side-index > a{}
+.side-index > a::after{
+    content: "";
+    background-image: url(../img/sprite_pc.png);
+    background-repeat: no-repeat;
+    background-position: -17px -318px; 
+    background-size: 357px 329px;
+    width: 7px;
+    height: 11px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+
+
+}
+.main-contents{
+    margin: 0 128.5px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.video-container{
+    margin: 0 8%;
+}
+.video-container > .video{
+    margin: 0 150px;
+    padding-bottom: 200px;
+}
+.video-container > .video > iframe{
+    display: inline-block;
+    width: 894px;
+    height: 510px;
+    border: 3px solid black;
+}
+
+.cartoon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 300px;
+}
+.cartoon > .cartoon-01,.cartoon > .cartoon-02,.cartoon > .cartoon-03,.cartoon > .cartoon-04{
+    width: 600px;
+    margin-bottom: 70px;
+}
+
+.cartoon > .cartoon-01 > img{
+    width: 100%;
+}
+
+.cartoon > .cartoon-02{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cartoon > .cartoon-02 > img{
+    width: 600px;
+    margin-bottom: 30px;
+}
+.cartoon > .cartoon-02 > .toon-wrap{
+    padding: 40px;
+    border: 3px solid #000;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cartoon > .cartoon-02 > .toon-wrap > .img-wrap1{}
+.cartoon > .cartoon-02 > .toon-wrap > div > img{
+    width: 60%;
+}
+.cartoon > .cartoon-02 > .toon-wrap > div > span{
+    padding-top: 100px;
+    padding-left: 50px;
+    font-family: "Noto Sans KR Medium";
+    font-weight: 500;
+    vertical-align: middle;
+}
+.cartoon > .cartoon-02 > .toon-wrap > div > span > em{}
+.img-wrap1{
+    display: flex;
+}
+.img-wrap2{
+    display: flex;
+    flex-direction: row-reverse
+}
+.img-wrap3{
+    display: flex;
+}
+
+
+.txt-box{
+    display: flex;
+    vertical-align: middle;
+    margin-top: 18px;
+}
+
+.txt-box > em{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-right: 9px;
+    padding-top: 5px;
+    color: #fff;
+    font-size: 14px;
+    font-family: "Roboto Medium";
+    font-weight: 500;
+    text-align: center;
+    border-radius: 100%;
+    background-color: #000;
+    font-style: normal;
+}
+.txt-box > span{
+    width: 75%;
+    color: #000;
+    font-size: 16px;
+    text-align: left;
+    font-family: "Noto Sans KR Medium";
+    font-weight: 500;
+    height: 100%;
+}
+.txt-box > span > em{}
+.txt-box > button{
+    flex: auto;
+    width: 76px;
+    text-align: right;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: unset;
+}
+.txt-box > button > em{
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    padding: 3px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: #000;
+    text-align: center;
+}

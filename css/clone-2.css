@@ -5,14 +5,14 @@
     width: 100%;
 }
 .top-content > .information{
-    margin: 150px 91px 100px 91px;
+    margin: 150px 147px 100px 147px;
     position: relative;
     letter-spacing: -0.5px;
 }
 .top-content > .information > h2{
     font-family: "Noto Sans KR Bold";
     font-weight: 700;
-    font-size: 38px;
+    font-size: 48px;
     color: #000;
 
 }
@@ -20,7 +20,7 @@
     margin-top: 28px;
     font-family: "Noto Sans KR Medium";
     font-weight: 500;
-    font-size: 17px;
+    font-size: 20px;
 }
 .top-content > .side-index{
     position: absolute;
@@ -56,7 +56,8 @@
 
 
 .main-content{
-    margin: 0 131px;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .main-content > .introduce{
@@ -262,6 +263,7 @@
     
     .main-content{
         margin: 0 2%;
+        width: 100%;
     }
     
     .main-content > .introduce{
