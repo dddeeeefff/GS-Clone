@@ -123,6 +123,63 @@
           
         }
 
-        console.log(scroll_count)
+        // ---------------------------------clone2-3-----------------------------------------------
 
+        //offsetHeight
+        const txt_box_1 = document.querySelector('.txt-box-1') 
+        const button1 = document.querySelector('.button1');
+        const icon1_1 = document.querySelector('.icon1-1');
+        const icon1_2 = document.querySelector('.icon1-2');
+        var button1_count = 0
+
+        
+        
+        button1.onclick = function(){
+            // txt_box_1.style='display : block;'
+            // let offH = txt_box_1.offsetHeight;
+            // txt_box_1.style='height : 0; display : block;'
+            // setTimeout(()=>{
+            //     button1_count++
+            //     if(button1_count % 2 == 1){
+            //         txt_box_1.style = `height : ${offH}px; display : block;`
+            //         icon1_1.style = 'transform: rotateZ( -45deg ); background : #00aa9d;'
+            //         icon1_2.style = 'transform: rotateZ( 45deg ); background : #00aa9d;'
+            //     }
+            // },100);
+            // button1_count++
+            // if(button1_count % 2 == 1){
+            //     icon1_1.style = 'transform: rotateZ( -45deg ); background : #00aa9d;'
+            //     icon1_2.style = 'transform: rotateZ( 45deg ); background : #00aa9d;'
+            // }else{
+            //     icon1_1.style = 'transform: rotateZ( 45deg ); background : #00aa9d;'
+            //     icon1_2.style = 'transform: rotateZ( -45deg ); background : #00aa9d;'
+            // }
+            $('.txt-box-1').slideToggle(600);
+            $('.button1').toggleClass('active');
+        }
+
+        const button2 = document.querySelector('.button2');
+
+
+        button2.onclick = function(){
+
+            $('.txt-box-2').slideToggle(600);
+            $('.button2').toggleClass('active');
+        }
+
+
+        const button3 = document.querySelector('.button3');
+        button3.onclick = function(){
+
+            $('.txt-box-3').slideToggle(600);
+            $('.button3').toggleClass('active');
+        }
+
+        
+        const button4 = document.querySelector('.button4');
+        button4.onclick = function(){
+
+            $('.txt-box-4').slideToggle(600);
+            $('.button4').toggleClass('active');
+        }
 
