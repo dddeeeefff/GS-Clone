@@ -281,5 +281,292 @@
     transform: rotateZ(-45deg);
     position: absolute;
     left: -4px;
+}
 
+/* -------------------------------------------------------------------------------------------- */
+
+@media(max-width:1038px){
+
+    .top-content{
+        width: 100%;
+        position: relative;
+        letter-spacing: -0.5px;
+    }
+    .top-content-margin{
+        height: 360px;
+        margin: 0 10%;
+        position: relative;
+    }
+    .top-content-margin > .information{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 170px;
+        
+    }
+    .top-content-margin > .information > h2{
+        display: inline-block;
+        font-size: 48px;
+        color: #000;
+        text-align: center;
+    }
+    .top-content-margin > .information > p{
+        display: inline-block;
+        font-size: 20px;
+        margin-top: 28px;
+        display: none;
+    }
+    .side-index{
+        position: absolute;
+        top: 140px; right: 40px;
+        font-size: 14px;
+        display: none;
+    }
+    .side-index > a{}
+    .side-index > a::after{
+        content: "";
+        background-image: url(../img/sprite_pc.png);
+        background-repeat: no-repeat;
+        background-position: -17px -318px; 
+        background-size: 357px 329px;
+        width: 7px;
+        height: 11px;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: inline-block;
+    }
+    
+    .main{
+        display: flex;
+        justify-content: center;
+    }
+    .main-contents{
+        width: 95vw;
+        margin: 0 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .video-container{
+    }
+    .video-container > .video{
+        width: 100%;
+        margin: 0;
+        padding-bottom: 30px;
+    }
+    .video-container > .video > iframe{
+        width: 96vw;
+        height: 54vw;
+        border: 3px solid black;
+    }
+    
+    .cartoon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 300px;
+    }
+    .cartoon > .cartoon-01,.cartoon > .cartoon-02,.cartoon > .cartoon-03,.cartoon > .cartoon-04{
+        width: 320px;
+        margin-bottom: 70px;
+    }
+    
+    .cartoon > .cartoon-01 > img{
+        width: 100%;
+    }
+    
+    .cartoon > .cartoon-02{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cartoon > .cartoon-02 > img{
+        width: 320px;
+        margin-bottom: 30px;
+    }
+    .cartoon > .cartoon-02 > .toon-wrap{
+        padding: 40px;
+        border: 3px solid #000;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cartoon > .cartoon-02 > .toon-wrap > .img-wrap1{}
+    .cartoon > .cartoon-02 > .toon-wrap > div > img{
+        width: 60%;
+    }
+    .cartoon > .cartoon-02 > .toon-wrap > div > span{
+        padding-top: 100px;
+        padding-left: 50px;
+        font-family: "Noto Sans KR Medium";
+        font-weight: 500;
+        vertical-align: middle;
+        font-style: normal;
+        
+    }
+    .cartoon > .cartoon-02 > .toon-wrap > .img-wrap2 > span{
+        padding-top: 100px;
+        padding-right: 50px;
+        font-family: "Noto Sans KR Medium";
+        font-weight: 500;
+        vertical-align: middle;
+        font-style: normal;
+        
+    }
+    .cartoon > .cartoon-02 > .toon-wrap > div > span > em{
+        font-style: normal;
+        color: rgb(41, 156, 156);
+        font-family: "Noto Sans KR Medium";
+        font-weight: 700;
+        
+    }
+    .img-wrap1{
+        display: flex;
+    }
+    .img-wrap2{
+        display: flex;
+        flex-direction: row-reverse
+    }
+    .img-wrap3{
+        display: flex;
+    }
+    
+    
+    .txt-box{
+        display: flex;
+        align-items: flex-start;
+        margin-top: 18px;
+    }
+    
+    .txt-box > em{
+        display: block;
+        width: 23px;
+        height: 19px;
+        margin-right: 9px;
+        padding-top: 5px;
+        color: #fff;
+        font-size: 14px;
+        font-family: "Roboto Medium";
+        font-weight: 500;
+        text-align: center;
+        border-radius: 100%;
+        background-color: #000;
+        font-style: normal;
+        letter-spacing: -0.5px;
+    }
+    .txt-box > span{
+        width: 75%;
+        color: #000;
+        font-size: 14px;
+        text-align: left;
+        font-family: "Noto Sans KR Medium";
+        font-weight: 500;
+        height: 100%;
+        letter-spacing: -0.5px;
+    }
+    .txt-box > span > em{
+        font-size: 14px;
+        text-align: left;
+        font-family: "Noto Sans KR Medium";
+        font-weight: 500;
+        font-style: normal;
+        height: 100%;
+        letter-spacing: -0.5px;
+        color: rgb(41, 156, 156);
+    }
+    .txt-box > button{
+        flex: auto;
+        width: 76px;
+        text-align: right;
+        border-radius: 5px;
+        margin: 0;
+        padding: 0;
+        border: none;
+        background-color: unset;
+    }
+    .txt-box > button > em{
+        display: inline-block;
+        width: 100%;
+        color: #fff;
+        padding: 3px 10px;
+        font-size: 12px;
+        border-radius: 5px;
+        background-color: #000;
+        text-align: center;
+    }
+    
+    .cartoon-03{
+        position: relative;
+    }
+    .cartoon-03 > .toon-front{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 80px;
+        position: relative;
+    }
+    .cartoon-03 > .toon-front > img{
+        width: 142px;
+    
+    }
+    .arrow1{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        display: flex;
+        transform: rotate(-90deg);
+    }
+    .arrow1 > em{
+        width: 22px;
+        height: 3px;
+        background: #00aa9d;
+        border-radius: 4px;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+    .arrow1 > em:nth-of-type(1){
+        transform: rotateZ(45deg);
+        position: absolute;
+        top: 0;
+        left: -19px;
+    }
+    .arrow1 > em:nth-of-type(2){
+        transform: rotateZ(-45deg);
+        position: absolute;
+        left: -4px;
+    
+    }
+    .cartoon-03 > img{
+        width: 100%;
+    }
+    .cartoon-04 > img{
+        width: 320px;
+    }
+    .arrow2{
+        position: absolute;
+        top: 489px;
+        left: 50%;
+        display: flex;
+    }
+    .arrow2 > em{
+        width: 22px;
+        height: 3px;
+        background: #00aa9d;
+        border-radius: 4px;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+    .arrow2 > em:nth-of-type(1){
+        transform: rotateZ(45deg);
+        position: absolute;
+        top: 0;
+        left: -19px;
+    }
+    .arrow2 > em:nth-of-type(2){
+        transform: rotateZ(-45deg);
+        position: absolute;
+        left: -4px;
+    }
 }
