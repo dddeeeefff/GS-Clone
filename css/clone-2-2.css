@@ -115,8 +115,25 @@
     font-family: "Noto Sans KR Medium";
     font-weight: 500;
     vertical-align: middle;
+    font-style: normal;
+    
 }
-.cartoon > .cartoon-02 > .toon-wrap > div > span > em{}
+.cartoon > .cartoon-02 > .toon-wrap > .img-wrap2 > span{
+    padding-top: 100px;
+    padding-right: 50px;
+    font-family: "Noto Sans KR Medium";
+    font-weight: 500;
+    vertical-align: middle;
+    font-style: normal;
+    
+}
+.cartoon > .cartoon-02 > .toon-wrap > div > span > em{
+    font-style: normal;
+    color: rgb(41, 156, 156);
+    font-family: "Noto Sans KR Medium";
+    font-weight: 700;
+    
+}
 .img-wrap1{
     display: flex;
 }
@@ -131,7 +148,7 @@
 
 .txt-box{
     display: flex;
-    vertical-align: middle;
+    align-items: flex-start;
     margin-top: 18px;
 }
 
@@ -149,6 +166,7 @@
     border-radius: 100%;
     background-color: #000;
     font-style: normal;
+    letter-spacing: -0.5px;
 }
 .txt-box > span{
     width: 75%;
@@ -158,8 +176,18 @@
     font-family: "Noto Sans KR Medium";
     font-weight: 500;
     height: 100%;
+    letter-spacing: -0.5px;
 }
-.txt-box > span > em{}
+.txt-box > span > em{
+    font-size: 16px;
+    text-align: left;
+    font-family: "Noto Sans KR Medium";
+    font-weight: 500;
+    font-style: normal;
+    height: 100%;
+    letter-spacing: -0.5px;
+    color: rgb(41, 156, 156);
+}
 .txt-box > button{
     flex: auto;
     width: 76px;
@@ -179,4 +207,79 @@
     border-radius: 5px;
     background-color: #000;
     text-align: center;
+}
+
+.cartoon-03{
+    position: relative;
+}
+.cartoon-03 > .toon-front{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    position: relative;
+}
+.cartoon-03 > .toon-front > img{
+    width: 265px;
+
+}
+.arrow1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    transform: rotate(-90deg);
+}
+.arrow1 > em{
+    width: 22px;
+    height: 3px;
+    background: #00aa9d;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.arrow1 > em:nth-of-type(1){
+    transform: rotateZ(45deg);
+    position: absolute;
+    top: 0;
+    left: -19px;
+}
+.arrow1 > em:nth-of-type(2){
+    transform: rotateZ(-45deg);
+    position: absolute;
+    left: -4px;
+
+}
+.cartoon-03 > img{
+    width: 100%;
+}
+.cartoon-04 > img{
+    width: 600px;
+}
+.arrow2{
+    position: absolute;
+    top: 489px;
+    left: 50%;
+    display: flex;
+}
+.arrow2 > em{
+    width: 22px;
+    height: 3px;
+    background: #00aa9d;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.arrow2 > em:nth-of-type(1){
+    transform: rotateZ(45deg);
+    position: absolute;
+    top: 0;
+    left: -19px;
+}
+.arrow2 > em:nth-of-type(2){
+    transform: rotateZ(-45deg);
+    position: absolute;
+    left: -4px;
+
 }
