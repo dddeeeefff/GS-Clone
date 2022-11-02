@@ -307,7 +307,7 @@
     }
     .top-content-margin > .information > h2{
         display: inline-block;
-        font-size: 48px;
+        font-size: 30px;
         color: #000;
         text-align: center;
     }
@@ -386,7 +386,7 @@
         margin-bottom: 30px;
     }
     .cartoon > .cartoon-02 > .toon-wrap{
-        padding: 40px;
+        padding: 10px;
         border: 3px solid #000;
         box-sizing: border-box;
         display: flex;
@@ -397,21 +397,23 @@
         width: 60%;
     }
     .cartoon > .cartoon-02 > .toon-wrap > div > span{
-        padding-top: 100px;
-        padding-left: 50px;
+        padding-top: 50px;
+        padding-left: 6px;
         font-family: "Noto Sans KR Medium";
         font-weight: 500;
         vertical-align: middle;
         font-style: normal;
+        font-size: 14px;
         
     }
     .cartoon > .cartoon-02 > .toon-wrap > .img-wrap2 > span{
-        padding-top: 100px;
-        padding-right: 50px;
+        padding-top: 50px;
+        padding-right: 6px;
         font-family: "Noto Sans KR Medium";
         font-weight: 500;
         vertical-align: middle;
         font-style: normal;
+        font-size: 14px;
         
     }
     .cartoon > .cartoon-02 > .toon-wrap > div > span > em{
@@ -419,17 +421,21 @@
         color: rgb(41, 156, 156);
         font-family: "Noto Sans KR Medium";
         font-weight: 700;
+        font-size: 14px;
         
     }
     .img-wrap1{
         display: flex;
+        justify-content: space-between;
     }
     .img-wrap2{
         display: flex;
+        justify-content: space-between;
         flex-direction: row-reverse
     }
     .img-wrap3{
         display: flex;
+        justify-content: space-between;
     }
     
     
@@ -443,8 +449,8 @@
         display: block;
         width: 23px;
         height: 19px;
-        margin-right: 9px;
-        padding-top: 5px;
+        margin-right: 7px;
+        padding-top: 1px;
         color: #fff;
         font-size: 14px;
         font-family: "Roboto Medium";
@@ -517,7 +523,7 @@
         transform: rotate(-90deg);
     }
     .arrow1 > em{
-        width: 22px;
+        width: 15px;
         height: 3px;
         background: #00aa9d;
         border-radius: 4px;
@@ -529,12 +535,12 @@
         transform: rotateZ(45deg);
         position: absolute;
         top: 0;
-        left: -19px;
+        left: -16px;
     }
     .arrow1 > em:nth-of-type(2){
         transform: rotateZ(-45deg);
         position: absolute;
-        left: -4px;
+        left: -7px;
     
     }
     .cartoon-03 > img{
@@ -550,7 +556,7 @@
         display: flex;
     }
     .arrow2 > em{
-        width: 22px;
+        width: 15px;
         height: 3px;
         background: #00aa9d;
         border-radius: 4px;
@@ -561,12 +567,13 @@
     .arrow2 > em:nth-of-type(1){
         transform: rotateZ(45deg);
         position: absolute;
-        top: 0;
-        left: -19px;
+        top: -200px;
+        left: -12px;
     }
     .arrow2 > em:nth-of-type(2){
         transform: rotateZ(-45deg);
         position: absolute;
-        left: -4px;
+        top: -200px;
+        left: -2px;
     }
 }

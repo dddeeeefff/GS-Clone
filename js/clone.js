@@ -123,6 +123,26 @@
           
         }
 
+        
+        const m_scroll_div_btn = document.querySelector('.m-scroll-div-btn');
+        
+        m_scroll_div_btn.onclick = function(){
+            $('.m-bottom-scrollbar').show();
+            $('html, body').scrollTop( $(document).height() );
+            if(!$('.m-scroll-div-btn').hasClass('active')){
+                $('.m-bottom-scrollbar').hide();
+            }else{
+                $('.m-bottom-scrollbar').show();
+            }
+            setTimeout(() => {                
+                $('.m-bottom-scrollbar').slideToggle(600);
+                $('.m-scroll-div-btn').toggleClass('active');
+            },10 );
+            // document.body.scrollTop = document.body.scrollHeight;
+        }
+        
+        
+        
         // ---------------------------------clone2-3-----------------------------------------------
 
         //offsetHeight
@@ -182,4 +202,3 @@
             $('.txt-box-4').slideToggle(600);
             $('.button4').toggleClass('active');
         }
-

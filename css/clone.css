@@ -468,13 +468,13 @@ body{
    }
   
    .manubar > .clfix > li:hover{ /* d */
-     transform: scale(1.1);
+     transform: scale(1);
      
      
    }
   
    .manubar > .clfix > li:hover span{
-     color: rgb(41, 156, 156);
+      color:#626262;
    }
   
   
@@ -524,10 +524,27 @@ body{
    }
 
    .manubar > .clfix > li > a::after{
-      background-color: rgb(41, 156, 156);
-      transform: scale(0.9);
+      color:#626262;
+      transform: scale(1);
       display: none;
     }
-  
+    .manubar > .clfix > li:hover > a > span{/* ----------------------------------------------------------------------------- */
+      color:#626262;
+      display: block;
+      transform: scale(1);
+      transition: 0;
+    }
+    .manubar > .clfix > li:hover > a::after{
+      color:#626262;
+      transform: scale(1);
+   
+    }
+    .manubar > .clfix > li:hover > a > em { /* d */
+      transform: scale(1);
+      transition: 0;
+      
+      
+    }
+   
 
 }

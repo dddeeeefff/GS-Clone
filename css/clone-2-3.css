@@ -488,3 +488,499 @@
     border-radius: 100%;
     background-color: #000;
 }
+
+@media(max-width:1038px){
+    .top-content{
+        width: 100%;
+        position: relative;
+        letter-spacing: -0.5px;
+    }
+    .top-content-margin{
+        height: 360px;
+        margin: 0 10%;
+        position: relative;
+    }
+    .top-content-margin > .information{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 170px;
+        
+    }
+    .top-content-margin > .information > h2{
+        display: inline-block;
+        font-size: 30px;
+        color: #000;
+        text-align: center;
+    }
+    .top-content-margin > .information > p{
+        display: inline-block;
+        font-size: 20px;
+        margin-top: 28px;
+        display: none;
+    }
+    .side-index{
+        position: absolute;
+        top: 140px; right: 40px;
+        font-size: 14px;
+        display: none;
+    }
+    .side-index > a{}
+    .side-index > a::after{
+        content: "";
+        background-image: url(../img/sprite_pc.png);
+        background-repeat: no-repeat;
+        background-position: -17px -318px; 
+        background-size: 357px 329px;
+        width: 7px;
+        height: 11px;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: inline-block;
+    }
+    
+    .main{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .step-1-wrap{
+    }
+    .video-main{
+        margin-top: 50px;
+        position: relative;
+    }
+    .video-container{
+        height: auto;
+        width: 93vw;
+        padding-bottom: 0px;
+        overflow:visible;
+        margin: 0 auto;
+    }
+    .video-container > iframe{
+    
+        display: inline-block;
+        width: 93vw;
+        height: 53vw;
+        left: 0;
+        top: 0;
+        border: 3px solid black;
+    }
+    .step-accordion{
+        width: 96vw;
+        margin: 0 auto;
+    }
+    .step-accordion-list{
+        width: 100%;
+    }
+    .step-accordion-list > .button1{
+        width: 94.5vw;
+        padding: 26px 60px 26px 20px;
+        margin: 0;
+        background : none;
+        text-align: left;
+        border: none;
+        cursor: pointer;
+    }
+    .step-accordion-list > .button1 > span{
+        display: block;
+        color: #000;
+        font-size: 14px;
+        position: relative;
+    }
+    .step-accordion-list > .button1 > span > .num{
+        font-style: normal;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        margin-right: 9px;
+        padding-top: 6px;
+        color: #fff;
+        font-size: 14px;
+        font-family: "Roboto Medium";
+        font-weight: 500;
+        text-align: center;
+        border-radius: 100%;
+        background-color: #000;
+    }
+    .step-accordion-list > .button1 > span > .icon1-1{
+        position: absolute;
+        top: 15px;
+        right: -40px;
+        width: 15px;
+        height: 2px;
+        background: #333;
+        transition: .4s all;
+        transform: rotateZ(45deg);
+        display: inline-block;
+    }
+    .step-accordion-list > .button1 > span >  .icon1-2{
+        position: absolute;
+        top: 15px;
+        right: -50px;
+        width: 15px;
+        height: 2px;
+        background: #333;
+        transition: .4s all;
+        transform: rotateZ(-45deg);
+        display: inline-block;
+    }
+    .step-accordion-list > .button1.active > span > .icon1-1{
+        transform: rotateZ(-45deg);
+        background : #00aa9d;
+    }
+    .step-accordion-list > .button1.active > span > .icon1-2{
+        transform: rotateZ(45deg);
+        background : #00aa9d;
+    }
+    
+    .txt-box-1{
+        padding: 0 50px 0px 20px;
+        overflow: hidden;
+        display: none;
+        margin: 0 auto;
+         /* transition: 1s; */
+    }
+    
+    .txt-box-1 > p{
+        margin: 6px 0;
+        font-size: 16px;
+        color: #000;
+    }
+    .txt-box-1 > p > em{
+        font-style: normal;
+        color: #00aa9d;
+        font-family: "Noto Sans KR Bold";
+        font-weight: 700;
+        font-size: 16px;
+    }
+    /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+    .step-accordion-list > .button2{
+        width: 94.5vw;
+        padding: 26px 60px 26px 20px;
+        margin: 0;
+        background : none;
+        text-align: left;
+        border: none;
+        cursor: pointer;
+    }
+    .step-accordion-list > .button2 > span{
+        display: block;
+        color: #000;
+        font-size: 14px;
+        position: relative;
+    }
+    .step-accordion-list > .button2 > span > .num{
+        font-style: normal;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        margin-right: 9px;
+        padding-top: 6px;
+        color: #fff;
+        font-size: 14px;
+        font-family: "Roboto Medium";
+        font-weight: 500;
+        text-align: center;
+        border-radius: 100%;
+        background-color: #000;
+    }
+    .step-accordion-list > .button2 > span > .icon2-1{
+        position: absolute;
+        top: 15px;
+        right: -40px;
+        width: 15px;
+        height: 2px;
+        background: #333;
+        transition: .4s all;
+        transform: rotateZ(45deg);
+        display: inline-block;
+    }
+    .step-accordion-list > .button2 > span >  .icon2-2{
+        position: absolute;
+        top: 15px;
+        right: -50px;
+        width: 15px;
+        height: 2px;
+        background: #333;
+        transition: .4s all;
+        transform: rotateZ(-45deg);
+        display: inline-block;
+    }
+    .step-accordion-list > .button2.active > span > .icon2-1{
+        transform: rotateZ(-45deg);
+        background : #00aa9d;
+    }
+    .step-accordion-list > .button2.active > span > .icon2-2{
+        transform: rotateZ(45deg);
+        background : #00aa9d;
+    }
+    
+    .txt-box-2{
+        padding: 0 50px 0px 20px;
+        overflow: hidden;
+        display: none;
+         /* transition: 1s; */
+    }
+    
+    .txt-box-2 > p{
+        margin: 6px 0;
+        font-size: 16px;
+        color: #000;
+    }
+    .txt-box-2 > p > em{
+        font-style: normal;
+        color: #00aa9d;
+        font-family: "Noto Sans KR Bold";
+        font-weight: 700;
+        font-size: 16px;
+    }
+    
+    /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+    .step-3-wrap > .video-main >.video-container{
+        width: 93vw;
+        height: auto;
+        padding-bottom: 0px;
+        overflow: visible;
+        margin: 0 auto;
+    }
+    .step-3-wrap > .video-main >.video-container > iframe{
+    
+        display: inline-block;
+        width: 93vw;
+        height: 53vw;
+        left: 0;
+        top: 0;
+        border: 3px solid black;
+    }
+    
+    .step-accordion-list > .button3{
+        width: 94.5vw;
+        padding: 26px 60px 26px 20px;
+        margin: 0;
+        background : none;
+        text-align: left;
+        border: none;
+        cursor: pointer;
+    }
+    .step-accordion-list > .button3 > span{
+        display: block;
+        color: #000;
+        font-size: 14px;
+        position: relative;
+    }
+    .step-accordion-list > .button3 > span > .num{
+        font-style: normal;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        margin-right: 9px;
+        padding-top: 6px;
+        color: #fff;
+        font-size: 14px;
+        font-family: "Roboto Medium";
+        font-weight: 500;
+        text-align: center;
+        border-radius: 100%;
+        background-color: #000;
+    }
+    .step-accordion-list > .button3 > span > .icon3-1{
+        position: absolute;
+        top: 15px;
+        right: -40px;
+        width: 15px;
+        height: 2px;
+        background: #333;
+        transition: .4s all;
+        transform: rotateZ(45deg);
+        display: inline-block;
+    }
+    .step-accordion-list > .button3 > span >  .icon3-2{
+        position: absolute;
+        top: 15px;
+        right: -50px;
+        width: 15px;
+        height: 2px;
+        background: #333;
+        transition: .4s all;
+        transform: rotateZ(-45deg);
+        display: inline-block;
+    }
+    .step-accordion-list > .button3.active > span > .icon3-1{
+        transform: rotateZ(-45deg);
+        background : #00aa9d;
+    }
+    .step-accordion-list > .button3.active > span > .icon3-2{
+        transform: rotateZ(45deg);
+        background : #00aa9d;
+    }
+    
+    .txt-box-3{
+        padding: 0 50px 0px 20px;
+        overflow: hidden;
+        display: none;
+         /* transition: 1s; */
+    }
+    
+    .txt-box-3 > p{
+        margin: 6px 0;
+        font-size: 16px;
+        color: #000;
+    }
+    .txt-box-3 > p > em{
+        font-style: normal;
+        color: #00aa9d;
+        font-family: "Noto Sans KR Bold";
+        font-weight: 700;
+        font-size: 16px;
+    }
+    
+    /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+    .step-4-wrap > .video-main >.video-container{
+        width: 93vw;
+        height: auto;
+        padding-bottom: 0px;
+        overflow: visible;
+        margin: 0 auto;
+    }
+    .step-4-wrap > .video-main >.video-container > iframe{
+    
+        display: inline-block;
+        width: 94.5vw;
+        height: 53vw;
+        left: 0;
+        top: 0;
+        border: 3px solid black;
+    }
+    
+    .step-accordion-list > .button4{
+        width: 96vw;
+        padding: 26px 60px 26px 20px;
+        margin: 0;
+        background : none;
+        text-align: left;
+        border: none;
+        cursor: pointer;
+    }
+    .step-accordion-list > .button4 > span{
+        display: block;
+        color: #000;
+        font-size: 14px;
+        position: relative;
+    }
+    .step-accordion-list > .button4 > span > .num{
+        font-style: normal;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        margin-right: 9px;
+        padding-top: 6px;
+        color: #fff;
+        font-size: 14px;
+        font-family: "Roboto Medium";
+        font-weight: 500;
+        text-align: center;
+        border-radius: 100%;
+        background-color: #000;
+    }
+    .step-accordion-list > .button4 > span > .icon4-1{
+        position: absolute;
+        top: 15px;
+        right: -40px;
+        width: 15px;
+        height: 2px;
+        background: #333;
+        transition: .4s all;
+        transform: rotateZ(45deg);
+        display: inline-block;
+    }
+    .step-accordion-list > .button4 > span >  .icon4-2{
+        position: absolute;
+        top: 15px;
+        right: -50px;
+        width: 15px;
+        height: 2px;
+        background: #333;
+        transition: .4s all;
+        transform: rotateZ(-45deg);
+        display: inline-block;
+    }
+    .step-accordion-list > .button4.active > span > .icon4-1{
+        transform: rotateZ(-45deg);
+        background : #00aa9d;
+    }
+    .step-accordion-list > .button4.active > span > .icon4-2{
+        transform: rotateZ(45deg);
+        background : #00aa9d;
+    }
+    
+    .txt-box-4{
+        padding: 0 50px 0px 20px;
+        overflow: hidden;
+        display: none;
+         /* transition: 1s; */
+    }
+    
+    .txt-box-4 > p{
+        margin: 6px 0;
+        font-size: 16px;
+        color: #000;
+    }
+    .txt-box-4 > p > em{
+        font-style: normal;
+        color: #00aa9d;
+        font-family: "Noto Sans KR Bold";
+        font-weight: 700;
+        font-size: 16px;
+    }
+    /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+    
+    .step-5-wrap > .video-main >.video-container{
+        width: 93vw;
+        height: auto;
+        padding-bottom: 0px;
+        overflow: visible;
+        margin: 0 auto;
+    }
+    .step-5-wrap > .video-main >.video-container > iframe{
+    
+        display: inline-block;
+        width: 93vw;
+        height: 53vw;
+        left: 0;
+        top: 0;
+        border: 3px solid black;
+    }
+    
+    .step-accordion-list > .button5{
+        width: 94.5vw;
+        padding: 26px 60px 26px 20px;
+        margin: 0;
+        background : none;
+        text-align: left;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 50px;
+    }
+    .step-accordion-list > .button5 > span{
+        display: block;
+        color: #000;
+        font-size: 14px;
+        position: relative;
+    }
+    .step-accordion-list > .button5 > span > .num{
+        font-style: normal;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        margin-right: 9px;
+        padding-top: 6px;
+        color: #fff;
+        font-size: 14px;
+        font-family: "Roboto Medium";
+        font-weight: 500;
+        text-align: center;
+        border-radius: 100%;
+        background-color: #000;
+    }
+}
