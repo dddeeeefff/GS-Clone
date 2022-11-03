@@ -36,6 +36,9 @@ header{
     z-index: 99999;
     /* display: none; */
 }
+header.line{
+   border-bottom: 1px solid #000;
+}
 header > .skipnav{}
 header > .sitelogo{
 }
@@ -501,6 +504,7 @@ footer{
       justify-content: center;
       z-index: 99999;
   }
+
   header > .skipnav{}
   header > .sitelogo{
   }

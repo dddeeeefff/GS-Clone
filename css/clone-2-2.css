@@ -409,6 +409,17 @@
     .cartoon > .cartoon-02 > .toon-wrap > .img-wrap2 > span{
         padding-top: 50px;
         padding-right: 6px;
+        padding-left: 20px;
+        font-family: "Noto Sans KR Medium";
+        font-weight: 500;
+        vertical-align: middle;
+        font-style: normal;
+        font-size: 14px;
+        
+    }
+        .cartoon > .cartoon-02 > .toon-wrap > .img-wrap3 > span{
+        padding-top: 50px;
+        padding-right: 20px;
         font-family: "Noto Sans KR Medium";
         font-weight: 500;
         vertical-align: middle;
