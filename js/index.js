@@ -52,37 +52,23 @@
         topmanulist.onmouseover = function(){      //유지
             topmanulist.classList.add('active');
         }
-
-        // 두 영역 모두 마우스가 나가면 제거되는 로직인데 두 영역을 어떻게 하나로 묶는지?
-        topnavlistul.onmouseout = out;
+        topnavlistul.onmouseout = out;  // out 함수를 적용시켜 적용된 .add 제거
         topmanulist.onmouseout = out;
 
         function out(){
             topmanulist.classList.remove('active');
-
-            setTimeout(() => {
-                console.log(topmanulist.getBoundingClientRect().top)
-                if(topmanulist.getBoundingClientRect().top <= -67){
-                    header.style = 'border-bottom : 1px solid #000; transition : 0.3s;'
-                    setTimeout(() =>{
-                        header.style = 'border-bottom : 1px solid rgb(241, 231, 231);transition : 0.3s;'
-                    },20)
-                }
-            }, 500);
         }
-        
-        // (topmanulist + topnavlistul).onmouseout = function(){
-        //     topmanulist.classList.remove('active'); 
-        // }
-        
-        
-        
 
         
-   
-
-
-
+            // setTimeout(() => {
+            //     console.log(topmanulist.getBoundingClientRect().top)
+            //     if(topmanulist.getBoundingClientRect().top <= -67){
+            //         header.style = 'border-bottom : 1px solid #000; transition : 0.3s;'
+            //         setTimeout(() =>{
+            //             header.style = 'border-bottom : 1px solid rgb(241, 231, 231);transition : 0.3s;'
+            //         },20)
+            //     }
+            // }, 500);
 
         const ulOn2_1 = document.querySelector('.on2-1');
         const ulOn2_2 = document.querySelector('.on2-2');
@@ -111,6 +97,9 @@
         ulOn2_3.onmouseout = function(){
             liOn1_3.classList.remove('active');
         }
+
+
+
 
 
 
