@@ -532,7 +532,7 @@ body{
       color:#626262;
       display: block;
       transform: scale(1);
-      transition: 0;
+      transition: none;
     }
     .manubar > .clfix > li:hover > a::after{
       color:#626262;
@@ -541,7 +541,7 @@ body{
     }
     .manubar > .clfix > li:hover > a > em { /* d */
       transform: scale(1);
-      transition: 0;
+      transition: none;
       
       
     }

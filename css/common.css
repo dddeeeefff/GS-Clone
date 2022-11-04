@@ -458,8 +458,6 @@ footer{
     padding-top: 24px;
     text-align: center;
     border-right: 1px solid #f1f1f1;
-
-
  }
 
  .topmanubar > div:nth-of-type(2) > ul:nth-of-type(1){
@@ -612,8 +610,6 @@ footer{
     padding-top: 24px;
     text-align: center;
     border-right: 1px solid #f1f1f1;
-
-
  }
 
  .topmanubar > div:nth-of-type(2) > ul:nth-of-type(1){
@@ -735,8 +731,7 @@ footer{
       color: #000;
       font-family: "Noto Sans KR Medium";
       font-weight: 400;
-      padding-left: 10px;
-      
+      padding-left: 10px;      
   }
   
   .overlay {
@@ -774,7 +769,6 @@ footer{
       transform: scaleY(-1);
       position: absolute;
       right: 0; top: 0;
-
    }
    footer > .inner-container-X1 > div:nth-of-type(1) > button{
       background-color: white;
@@ -820,8 +814,7 @@ footer{
       padding-top: 10px;
       justify-content: space-between;
       align-items: center;
-      flex-wrap: wrap;
-      
+      flex-wrap: wrap;  
    }
    footer > .inner-container-X1 > .etc > address{
       padding-left: 0px;
