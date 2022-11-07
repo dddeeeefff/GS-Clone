@@ -46,6 +46,10 @@
     margin-right: 10px;
     display: inline-block;
 }
+.side-index > strong{
+    font-weight: 400;
+}
+
 
 .main{
     width: 900px;
